@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="01/24/2025 09:13:23" ReportInfo.Modified="01/24/2025 16:08:56" ReportInfo.CreatorVersion="2025.1.0.0">
+  <Dictionary>
+    <Parameter Name="area" DataType="System.String" AsString=""/>
+    <Parameter Name="estado" DataType="System.String" AsString=""/>
+    <Parameter Name="usuario" DataType="System.String" AsString=""/>
+    <Parameter Name="empresa" DataType="System.String" AsString=""/>
+    <Parameter Name="inicio" DataType="System.DateTime" AsString=""/>
+    <Parameter Name="fim" DataType="System.DateTime" AsString=""/>
+    <Parameter Name="envio" DataType="System.DateTime" AsString=""/>
+    <Parameter Name="aprovado" DataType="System.String" AsString=""/>
+    <Parameter Name="aprovacao" DataType="System.String" AsString=""/>
+    <Parameter Name="cod" DataType="System.String" AsString=""/>
+    <Parameter Name="numeroATP" DataType="System.String" AsString=""/>
+    <Parameter Name="cliente" DataType="System.String" AsString=""/>
+    <Parameter Name="endereco" DataType="System.String" AsString=""/>
+    <Parameter Name="municipio" DataType="System.String" AsString=""/>
+    <Parameter Name="uf" DataType="System.String" AsString=""/>
+    <Parameter Name="areaAT" DataType="System.String" AsString=""/>
+    <Parameter Name="status" DataType="System.String" AsString=""/>
+    <Parameter Name="numeroRelatorio" DataType="System.Int32" AsString=""/>
+    <Parameter Name="certi" DataType="System.String" AsString=""/>
+    <Parameter Name="valorCert" DataType="System.String" AsString=""/>
+    <Parameter Name="img1" DataType="System.Byte[]" AsString=""/>
+    <Parameter Name="valCent" DataType="System.String" AsString=""/>
+    <Parameter Name="valCabo" DataType="System.String" AsString=""/>
+    <Parameter Name="valAndarDoCen" DataType="System.String" AsString=""/>
+    <Parameter Name="obsCe" DataType="System.String" AsString=""/>
+    <Parameter Name="obsAndarDoCen" DataType="System.String" AsString=""/>
+    <Parameter Name="obsValdenCabo" DataType="System.String" AsString=""/>
+    <Parameter Name="obsImg1" DataType="System.String" AsString=""/>
+  </Dictionary>
+  <ReportPage Name="Page1" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="113.4">
+      <PictureObject Name="Picture1" Left="28.35" Top="18.9" Width="226.8" Height="75.6" ImageLocation="C:\Users\0102062077\Documents\sei la2.png" ImageFormat="Png"/>
+      <PictureObject Name="Picture2" Left="425.25" Top="18.9" Width="245.7" Height="75.6" ImageLocation="C:\Users\0102062077\Documents\Vivo.png" ImageFormat="Png"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="117.4" Width="718.2" Height="47.25">
+      <TextObject Name="Text9" Left="28.35" Top="28.35" Width="264.6" Height="18.9" Border.Color="Transparent" Text="Relatório Certificação nº" Font="Arial, 12pt, style=Bold" TextFill.Color="Chocolate"/>
+      <TextObject Name="Text46" Left="292.95" Top="28.35" Width="255.15" Height="18.9" Border.Lines="All" Border.Color="Transparent" Text="[numeroRelatorio]" VertAlign="Center" Font="Arial, 12pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="168.65" Width="718.2" Height="850.5">
+      <TextObject Name="Text10" Left="28.35" Top="9.45" Width="264.6" Height="18.9" Border.Color="Transparent" Text="Dados de cadastro:" Font="Arial, 10pt, style=Bold" TextFill.Color="Chocolate"/>
+      <TextObject Name="Text11" Left="28.35" Top="47.25" Width="47.25" Height="18.9" Border.Color="Transparent" Text="Área:" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text12" Left="396.9" Top="47.25" Width="66.15" Height="18.9" Border.Color="Transparent" Text="Estado:" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text13" Left="28.35" Top="75.6" Width="132.3" Height="18.9" Border.Color="Transparent" Text="Usuário do Laudo:" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text14" Left="396.9" Top="75.6" Width="85.05" Height="18.9" Border.Color="Transparent" Text="Empresa:" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text15" Left="28.35" Top="103.95" Width="56.7" Height="18.9" Border.Color="Transparent" Text="Inicio:" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text16" Left="264.6" Top="103.95" Width="56.7" Height="18.9" Border.Color="Transparent" Text="Fim:" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text17" Left="519.75" Top="103.95" Width="56.7" Height="18.9" Border.Color="Transparent" Text="Envio:" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text18" Left="28.35" Top="132.3" Width="85.05" Height="18.9" Border.Color="Transparent" Text="Aprovador:" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text19" Left="359.1" Top="132.3" Width="85.05" Height="18.9" Border.Color="Transparent" Text="Aprovação:" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text20" Left="28.35" Top="179.55" Width="85.05" Height="18.9" Border.Color="Transparent" Text="Código:" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text21" Left="28.35" Top="207.9" Width="132.3" Height="18.9" Border.Color="Transparent" Text="Número de ATP:" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text22" Left="28.35" Top="236.25" Width="75.6" Height="18.9" Border.Color="Transparent" Text="Cliente:" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text23" Left="28.35" Top="264.6" Width="75.6" Height="18.9" Border.Color="Transparent" Text="Endereço:" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text24" Left="28.35" Top="292.95" Width="85.05" Height="18.9" Border.Color="Transparent" Text="Municipio:" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text25" Left="28.35" Top="321.3" Width="37.8" Height="18.9" Border.Color="Transparent" Text="UF:" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text26" Left="28.35" Top="349.65" Width="103.95" Height="18.9" Border.Color="Transparent" Text="Área de AT:" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text27" Left="28.35" Top="378" Width="103.95" Height="18.9" Border.Color="Transparent" Text="Status:" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text28" Left="75.6" Top="47.25" Width="94.5" Height="18.9" Border.Color="Transparent" Text="[area]" VertAlign="Center" Font="Arial, 10pt"/>
+      <TextObject Name="Text29" Left="463.05" Top="47.25" Width="189" Height="18.9" Border.Color="Transparent" Text="[estado]" VertAlign="Center" Font="Arial, 10pt"/>
+      <TextObject Name="Text30" Left="160.65" Top="75.6" Width="170.1" Height="18.9" Border.Color="Transparent" Text="[usuario]" VertAlign="Center" Font="Arial, 10pt"/>
+      <TextObject Name="Text31" Left="481.95" Top="75.6" Width="170.1" Height="18.9" Border.Color="Transparent" Text="[empresa]" VertAlign="Center" Font="Arial, 10pt"/>
+      <TextObject Name="Text32" Left="85.05" Top="103.95" Width="132.3" Height="18.9" Border.Color="Transparent" Text="[inicio]" VertAlign="Center" Font="Arial, 10pt"/>
+      <TextObject Name="Text33" Left="576.45" Top="103.95" Width="113.4" Height="18.9" Border.Color="Transparent" Text="[envio]" VertAlign="Center" Font="Arial, 10pt"/>
+      <TextObject Name="Text34" Left="321.3" Top="103.95" Width="122.85" Height="18.9" Border.Color="Transparent" Text="[fim]" VertAlign="Center" Font="Arial, 10pt"/>
+      <TextObject Name="Text35" Left="113.4" Top="132.3" Width="198.45" Height="18.9" Border.Color="Transparent" Text="[aprovado]" VertAlign="Center" Font="Arial, 10pt"/>
+      <TextObject Name="Text36" Left="444.15" Top="132.3" Width="236.25" Height="18.9" Border.Color="Transparent" Text="[aprovacao]" VertAlign="Center" Font="Arial, 10pt"/>
+      <TextObject Name="Text37" Left="113.4" Top="179.55" Width="122.85" Height="18.9" Border.Color="Transparent" Text="[cod]" VertAlign="Center" Font="Arial, 10pt"/>
+      <TextObject Name="Text38" Left="160.65" Top="207.9" Width="444.15" Height="18.9" Border.Color="Transparent" Text="[numeroATP]" VertAlign="Center" Font="Arial, 10pt"/>
+      <TextObject Name="Text39" Left="103.95" Top="236.25" Width="453.6" Height="18.9" Border.Color="Transparent" Text="[cliente]" VertAlign="Center" Font="Arial, 10pt"/>
+      <TextObject Name="Text40" Left="103.95" Top="264.6" Width="453.6" Height="18.9" Border.Color="Transparent" Text="[endereco]" VertAlign="Center" Font="Arial, 10pt"/>
+      <TextObject Name="Text41" Left="113.4" Top="292.95" Width="444.15" Height="18.9" Border.Color="Transparent" Text="[municipio]" VertAlign="Center" Font="Arial, 10pt"/>
+      <TextObject Name="Text42" Left="66.15" Top="321.3" Width="170.1" Height="18.9" Border.Color="Transparent" Text="[uf]" VertAlign="Center" Font="Arial, 10pt"/>
+      <TextObject Name="Text43" Left="132.3" Top="349.65" Width="425.25" Height="18.9" Border.Color="Transparent" Text="[areaAT]" VertAlign="Center" Font="Arial, 10pt"/>
+      <TextObject Name="Text44" Left="132.3" Top="378" Width="425.25" Height="18.9" Border.Color="Transparent" Text="[status]" VertAlign="Center" Font="Arial, 10pt"/>
+      <TextObject Name="Text45" Left="28.35" Top="472.5" Width="264.6" Height="18.9" Border.Color="Transparent" Text="Dados de cadastro:" Font="Arial, 10pt, style=Bold" TextFill.Color="Chocolate"/>
+      <TableObject Name="Table1" Left="37.8" Top="519.75" Width="646.35" Height="37.8" Border.Lines="All" Border.Color="Transparent" EvenStylePriority="UseAll" WrappedGap="37.8">
+        <TableColumn Name="Column1" Width="230.1"/>
+        <TableColumn Name="Column2" Width="230.1"/>
+        <TableColumn Name="Column3" Width="97.8"/>
+        <TableColumn Name="Column4" Width="88.35"/>
+        <TableRow Name="Row1">
+          <TableCell Name="Cell1" Border.Lines="All" Text="CERTIFICAÇÃO DIGITAL DE B2B" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell2" Border.Lines="All" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell3" Border.Lines="All" Text="Observações" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell4" Border.Lines="All" Text="Aprovado" Font="Arial, 10pt, style=Bold"/>
+        </TableRow>
+        <TableRow Name="Row2">
+          <TableCell Name="Cell6" Border.Lines="All" Text="[certi]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell7" Border.Lines="All" Text="[valorCert]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell8" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell9" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+      </TableObject>
+      <TableObject Name="Table2" Left="37.8" Top="595.35" Width="652.05" Height="245.7" Border.Lines="All" Border.Color="Transparent">
+        <TableColumn Name="Column5" Width="226.8"/>
+        <TableColumn Name="Column6" Width="236.25"/>
+        <TableColumn Name="Column7" Width="94.5"/>
+        <TableColumn Name="Column8" Width="94.5"/>
+        <TableRow Name="Row3">
+          <TableCell Name="Cell10" Border.Lines="All" Text="1a ABORDAGEM&#13;&#10;" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell11" Border.Lines="All" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell12" Border.Lines="All" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell13" Border.Lines="All" Font="Arial, 10pt, style=Bold"/>
+        </TableRow>
+        <TableRow Name="Row4">
+          <TableCell Name="Cell15" Border.Lines="All" Text="CENTRAL" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell16" Border.Lines="All" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell17" Border.Lines="All" Text="Observações" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell18" Border.Lines="All" Text="Aprovado&#13;&#10;" Font="Arial, 10pt, style=Bold"/>
+        </TableRow>
+        <TableRow Name="Row5">
+          <TableCell Name="Cell20" Border.Lines="All" Text="IDENTIFICAÇÃO DA CENTRAL" HorzAlign="Center" Font="Arial, 10pt"/>
+          <TableCell Name="Cell21" Border.Lines="All" Text="[valCent]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell22" Border.Lines="All" Text="[obsCe]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell23" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row6">
+          <TableCell Name="Cell25" Border.Lines="All" Text="IDENTIFICAÇÃO DO CABO" HorzAlign="Center" Font="Arial, 10pt"/>
+          <TableCell Name="Cell26" Border.Lines="All" Text="[valCabo]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell27" Border.Lines="All" Text="[obsAndarDoCen]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell28" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row7" Height="37.8">
+          <TableCell Name="Cell39" Border.Lines="All" Text="QUAL O ANDAR DOS TRABALHOS NESTA CENTRAL?&#13;&#10;" HorzAlign="Center" Font="Arial, 10pt"/>
+          <TableCell Name="Cell40" Border.Lines="All" Text="[valAndarDoCen]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell41" Border.Lines="All" Text="[obsValdenCabo]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell42" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row8" Height="132.3">
+          <TableCell Name="Cell45" Border.Lines="All" Text="FOTO DO BASTIDOR IDENTIFICADO" HorzAlign="Center" Font="Arial, 10pt"/>
+          <TableCell Name="Cell46" Border.Lines="All" Text="[img1]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell47" Border.Lines="All" Text="[obsImg1]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell48" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+      </TableObject>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="1023.15" Width="718.2" Height="18.9">
+      <TextObject Name="Text7" Left="37.8" Width="189" Height="18.9" Text="[Date]" VertAlign="Center" Font="Arial Black, 7pt"/>
+      <TextObject Name="Text8" Left="652.05" Width="94.5" Height="18.9" Text="[Page]" VertAlign="Center" Font="Amiri, 8pt"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>

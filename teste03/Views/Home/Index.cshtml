@@ -1,0 +1,142 @@
+﻿@model teste03.Models.Cabecalho
+
+<body>
+    <h1>Gerar Relatório</h1>
+
+    <form method="post" asp-action="GerarRelatorio" asp-controller="Home" enctype="multipart/form-data">
+        <div>
+            <label for="area">Área:</label>
+            <input type="text" id="area" name="area" value="@Model.area" required />
+        </div>
+        <div>
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" value="@Model.estado" required />
+        </div>
+        <div>
+            <label for="usuario">Usuário:</label>
+            <input type="text" id="usuario" name="usuario" value="@Model.usuario" required />
+        </div>
+        <div>
+            <label for="empresa">Empresa:</label>
+            <input type="text" id="empresa" name="empresa" value="@Model.empresa" required />
+        </div>
+        <div>
+            <label for="inicio">Início:</label>
+            <input type="date" id="inicio" name="inicio" value="@Model.inicio.ToString("yyyy-MM-dd")" required />
+        </div>
+        <div>
+            <label for="fim">Fim:</label>
+            <input type="date" id="fim" name="fim" value="@Model.fim.ToString("yyyy-MM-dd")" required />
+        </div>
+        <div>
+            <label for="envio">Envio:</label>
+            <input type="date" id="envio" name="envio" value="@Model.envio.ToString("yyyy-MM-dd")" required />
+        </div>
+        <div>
+            <label for="aprovado">Aprovado:</label>
+            <input type="text" id="aprovado" name="aprovado" value="@Model.aprovado" required />
+        </div>
+        <div>
+            <label for="aprovacao">Aprovação:</label>
+            <input type="text" id="aprovacao" name="aprovacao" value="@Model.aprovacao" required />
+        </div>
+        <div>
+            <label for="cod">Código:</label>
+            <input type="text" id="cod" name="cod" value="@Model.cod" required />
+        </div>
+        <div>
+            <label for="numeroATP">Número ATP:</label>
+            <input type="text" id="numeroATP" name="numeroATP" value="@Model.numeroATP" required />
+        </div>
+        <div>
+            <label for="cliente">Cliente:</label>
+            <input type="text" id="cliente" name="cliente" value="@Model.cliente" required />
+        </div>
+        <div>
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" value="@Model.endereco" required />
+        </div>
+        <div>
+            <label for="municipio">Município:</label>
+            <input type="text" id="municipio" name="municipio" value="@Model.municipio" required />
+        </div>
+        <div>
+            <label for="uf">UF:</label>
+            <input type="text" id="uf" name="uf" value="@Model.uf" required />
+        </div>
+        <div>
+            <label for="areaAT">Área AT:</label>
+            <input type="text" id="areaAT" name="areaAT" value="@Model.areaAT" required />
+        </div>
+        <div>
+            <label for="status">Status:</label>
+            <input type="text" id="status" name="status" value="@Model.status" required />
+        </div>
+        <!-- Certificado -->
+        <div>
+            <label for="certi">Certificado:</label>
+            <input type="text" id="certi" name="certi" value="@Model?.certi" />
+        </div>
+
+        <!-- Número do Certificado -->
+        <div>
+            <label for="numeroCert">Número do Certificado:</label>
+            <input type="text" id="numeroCert" name="numeroCert" value="@Model?.numeroCert" />
+        </div>
+
+        <!-- Valor Cent -->
+        <div>
+            <label for="valorCent">Valor Cent:</label>
+            <input type="text" id="valorCent" name="valorCent" value="@Model?.valorCent" />
+        </div>
+
+        <!-- Observação Certificado -->
+        <div>
+            <label for="obsCe">Observação Certificado:</label>
+            <input type="text" id="obsCe" name="obsCe" value="@Model?.obsCe" />
+        </div>
+
+        <!-- Valor Cabo -->
+        <div>
+            <label for="valCabo">Valor Cabo:</label>
+            <input type="text" id="valCabo" name="valCabo" value="@Model?.valCabo" />
+        </div>
+
+        <!-- Observação Andar do Cen -->
+        <div>
+            <label for="obsAndarDoCen">Observação Andar do Cen:</label>
+            <input type="text" id="obsAndarDoCen" name="obsAndarDoCen" value="@Model?.obsAndarDoCen" />
+        </div>
+
+        <!-- Valor Andar do Cen -->
+        <div>
+            <label for="valAdarDoCen">Valor Andar do Cen:</label>
+            <input type="text" id="valAdarDoCen" name="valAdarDoCen" value="@Model?.valAdarDoCen" />
+        </div>
+
+        <!-- Observação Valden Cabo -->
+        <div>
+            <label for="obsValdenCabo">Observação Valden Cabo:</label>
+            <input type="text" id="obsValdenCabo" name="obsValdenCabo" value="@Model?.obsValdenCabo" />
+        </div>
+
+        <!-- Imagem 1 -->
+        <div>
+            <label for="img1">Imagem:</label>
+            <input type="file" id="img1" name="img1" />
+        </div>
+
+        <!-- Observação da Imagem -->
+        <div>
+            <label for="obsImg1">Observação da Imagem:</label>
+            <input type="text" id="obsImg1" name="obsImg1" value="@Model?.obsImg1" />
+        </div>
+
+        <button type="submit">Gerar Relatório</button>
+    </form>
+
+    @if (ViewBag != null)
+    {
+        <p style="color: red;">@ViewBag.Error</p>
+    }
+</body>
