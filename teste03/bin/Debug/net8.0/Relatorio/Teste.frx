@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Report ScriptLanguage="CSharp" ReportInfo.Created="01/24/2025 09:13:23" ReportInfo.Modified="01/24/2025 16:08:56" ReportInfo.CreatorVersion="2025.1.0.0">
+<Report ScriptLanguage="CSharp" ReportInfo.Created="01/24/2025 09:13:23" ReportInfo.Modified="01/28/2025 17:29:43" ReportInfo.CreatorVersion="2025.1.0.0">
   <Dictionary>
     <Parameter Name="area" DataType="System.String" AsString=""/>
     <Parameter Name="estado" DataType="System.String" AsString=""/>
@@ -29,11 +29,38 @@
     <Parameter Name="obsAndarDoCen" DataType="System.String" AsString=""/>
     <Parameter Name="obsValdenCabo" DataType="System.String" AsString=""/>
     <Parameter Name="obsImg1" DataType="System.String" AsString=""/>
+    <Parameter Name="quantFibra" DataType="System.String" AsString=""/>
+    <Parameter Name="localLimpo01" DataType="System.String" AsString=""/>
+    <Parameter Name="enlaceFribra" DataType="System.String" AsString=""/>
+    <Parameter Name="comentario01" DataType="System.String" AsString=""/>
+    <Parameter Name="trabalhoRealizado" DataType="System.String" AsString=""/>
+    <Parameter Name="obsTrabaReali" DataType="System.String" AsString=""/>
+    <Parameter Name="quantCssAberta" DataType="System.String" AsString=""/>
+    <Parameter Name="obsCssAberta" DataType="System.String" AsString=""/>
+    <Parameter Name="capaCaboNestaRede" DataType="System.String" AsString=""/>
+    <Parameter Name="obsCaboNestaRede" DataType="System.String" AsString=""/>
+    <Parameter Name="caboUtili" DataType="System.String" AsString=""/>
+    <Parameter Name="obsCaboUtili" DataType="System.String" AsString=""/>
+    <Parameter Name="quantCaboExistenteReaberEmendas" DataType="System.String" AsString=""/>
+    <Parameter Name="obscaboexistente" DataType="System.String" AsString=""/>
+    <Parameter Name="trechoSubFinal" DataType="System.String" AsString=""/>
+    <Parameter Name="obsTrechoSubFinal" DataType="System.String" AsString=""/>
+    <Parameter Name="metragemCabo" DataType="System.String" AsString=""/>
+    <Parameter Name="obsMetragemCabo" DataType="System.String" AsString=""/>
+    <Parameter Name="limpo2" DataType="System.String" AsString=""/>
+    <Parameter Name="perdaNivelSinal" DataType="System.String" AsString=""/>
+    <Parameter Name="obsPerdaNivelSinal" DataType="System.String" AsString=""/>
+    <Parameter Name="come01" DataType="System.String" AsString=""/>
+    <Parameter Name="lancamentoCaboCliente" DataType="System.String" AsString=""/>
+    <Parameter Name="obsLancamentoCaboCliente" DataType="System.String" AsString=""/>
+    <Parameter Name="posicaoFribra" DataType="System.String" AsString=""/>
+    <Parameter Name="obsPosicaoFibra" DataType="System.String" AsString=""/>
+    <Parameter Name="comen03" DataType="System.String" AsString=""/>
   </Dictionary>
   <ReportPage Name="Page1" Watermark.Font="Arial, 60pt">
     <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="113.4">
       <PictureObject Name="Picture1" Left="28.35" Top="18.9" Width="226.8" Height="75.6" ImageLocation="C:\Users\0102062077\Documents\sei la2.png" ImageFormat="Png"/>
-      <PictureObject Name="Picture2" Left="425.25" Top="18.9" Width="245.7" Height="75.6" ImageLocation="C:\Users\0102062077\Documents\Vivo.png" ImageFormat="Png"/>
+      <PictureObject Name="Picture2" Left="349.65" Top="18.9" Width="321.3" Height="75.6" ImageLocation="C:\Users\0102062077\Documents\Vivo.png" ImageFormat="Png"/>
     </ReportTitleBand>
     <PageHeaderBand Name="PageHeader1" Top="117.4" Width="718.2" Height="47.25">
       <TextObject Name="Text9" Left="28.35" Top="28.35" Width="264.6" Height="18.9" Border.Color="Transparent" Text="Relatório Certificação nº" Font="Arial, 12pt, style=Bold" TextFill.Color="Chocolate"/>
@@ -82,10 +109,10 @@
         <TableColumn Name="Column3" Width="97.8"/>
         <TableColumn Name="Column4" Width="88.35"/>
         <TableRow Name="Row1">
-          <TableCell Name="Cell1" Border.Lines="All" Text="CERTIFICAÇÃO DIGITAL DE B2B" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell1" Border.Lines="All" Text="CERTIFICAÇÃO DIGITAL DE B2B" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
           <TableCell Name="Cell2" Border.Lines="All" Font="Arial, 10pt, style=Bold"/>
-          <TableCell Name="Cell3" Border.Lines="All" Text="Observações" Font="Arial, 10pt, style=Bold"/>
-          <TableCell Name="Cell4" Border.Lines="All" Text="Aprovado" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell3" Border.Lines="All" Text="Observações" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+          <TableCell Name="Cell4" Border.Lines="All" Text="Aprovado" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
         </TableRow>
         <TableRow Name="Row2">
           <TableCell Name="Cell6" Border.Lines="All" Text="[certi]" Font="Arial, 10pt"/>
@@ -100,38 +127,44 @@
         <TableColumn Name="Column7" Width="94.5"/>
         <TableColumn Name="Column8" Width="94.5"/>
         <TableRow Name="Row3">
-          <TableCell Name="Cell10" Border.Lines="All" Text="1a ABORDAGEM&#13;&#10;" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell10" Border.Lines="All" Text="1a ABORDAGEM&#13;&#10;" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
           <TableCell Name="Cell11" Border.Lines="All" Font="Arial, 10pt, style=Bold"/>
-          <TableCell Name="Cell12" Border.Lines="All" Font="Arial, 10pt, style=Bold"/>
-          <TableCell Name="Cell13" Border.Lines="All" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell12" Border.Lines="All" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+          <TableCell Name="Cell13" Border.Lines="All" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
         </TableRow>
         <TableRow Name="Row4">
-          <TableCell Name="Cell15" Border.Lines="All" Text="CENTRAL" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell15" Border.Lines="All" Text="CENTRAL" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
           <TableCell Name="Cell16" Border.Lines="All" Font="Arial, 10pt, style=Bold"/>
-          <TableCell Name="Cell17" Border.Lines="All" Text="Observações" Font="Arial, 10pt, style=Bold"/>
-          <TableCell Name="Cell18" Border.Lines="All" Text="Aprovado&#13;&#10;" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell17" Border.Lines="All" Text="Observações" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+          <TableCell Name="Cell18" Border.Lines="All" Text="Aprovado&#13;&#10;" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
         </TableRow>
         <TableRow Name="Row5">
-          <TableCell Name="Cell20" Border.Lines="All" Text="IDENTIFICAÇÃO DA CENTRAL" HorzAlign="Center" Font="Arial, 10pt"/>
+          <TableCell Name="Cell20" Border.Lines="All" Text="IDENTIFICAÇÃO DA CENTRAL" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
           <TableCell Name="Cell21" Border.Lines="All" Text="[valCent]" Font="Arial, 10pt"/>
           <TableCell Name="Cell22" Border.Lines="All" Text="[obsCe]" Font="Arial, 10pt"/>
           <TableCell Name="Cell23" Border.Lines="All" Font="Arial, 10pt"/>
         </TableRow>
         <TableRow Name="Row6">
-          <TableCell Name="Cell25" Border.Lines="All" Text="IDENTIFICAÇÃO DO CABO" HorzAlign="Center" Font="Arial, 10pt"/>
+          <TableCell Name="Cell25" Border.Lines="All" Text="IDENTIFICAÇÃO DO CABO" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
           <TableCell Name="Cell26" Border.Lines="All" Text="[valCabo]" Font="Arial, 10pt"/>
           <TableCell Name="Cell27" Border.Lines="All" Text="[obsAndarDoCen]" Font="Arial, 10pt"/>
           <TableCell Name="Cell28" Border.Lines="All" Font="Arial, 10pt"/>
         </TableRow>
         <TableRow Name="Row7" Height="37.8">
-          <TableCell Name="Cell39" Border.Lines="All" Text="QUAL O ANDAR DOS TRABALHOS NESTA CENTRAL?&#13;&#10;" HorzAlign="Center" Font="Arial, 10pt"/>
+          <TableCell Name="Cell39" Border.Lines="All" Text="QUAL O ANDAR DOS TRABALHOS NESTA CENTRAL?&#13;&#10;" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
           <TableCell Name="Cell40" Border.Lines="All" Text="[valAndarDoCen]" Font="Arial, 10pt"/>
           <TableCell Name="Cell41" Border.Lines="All" Text="[obsValdenCabo]" Font="Arial, 10pt"/>
           <TableCell Name="Cell42" Border.Lines="All" Font="Arial, 10pt"/>
         </TableRow>
         <TableRow Name="Row8" Height="132.3">
-          <TableCell Name="Cell45" Border.Lines="All" Text="FOTO DO BASTIDOR IDENTIFICADO" HorzAlign="Center" Font="Arial, 10pt"/>
-          <TableCell Name="Cell46" Border.Lines="All" Text="[img1]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell45" Border.Lines="All" Text="FOTO DO BASTIDOR IDENTIFICADO" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell46" Border.Lines="All" Font="Arial, 10pt">
+            <PictureObject Name="img10" Top="9.45" Width="226.8" Height="113.4" ExportableExpression="[img1]" CanGrow="true" CanShrink="true" ImageSourceExpression="[area]"/>
+            <Highlight>
+              <Condition Expression="Value == 0" Font="Arial, 10pt"/>
+              <Condition Expression="Value == 0" Font="Arial, 10pt"/>
+            </Highlight>
+          </TableCell>
           <TableCell Name="Cell47" Border.Lines="All" Text="[obsImg1]" Font="Arial, 10pt"/>
           <TableCell Name="Cell48" Border.Lines="All" Font="Arial, 10pt"/>
         </TableRow>
@@ -140,6 +173,312 @@
     <PageFooterBand Name="PageFooter1" Top="1023.15" Width="718.2" Height="18.9">
       <TextObject Name="Text7" Left="37.8" Width="189" Height="18.9" Text="[Date]" VertAlign="Center" Font="Arial Black, 7pt"/>
       <TextObject Name="Text8" Left="652.05" Width="94.5" Height="18.9" Text="[Page]" VertAlign="Center" Font="Amiri, 8pt"/>
+    </PageFooterBand>
+  </ReportPage>
+  <ReportPage Name="Page2" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle2" Width="718.2" Height="37.8">
+      <TextObject Name="Text47" Left="-9450" Top="-9450" Width="189" Height="18.9" Text="[Date]" VertAlign="Center" Font="Arial Black, 7pt"/>
+      <TextObject Name="Text48" Left="-8835.75" Top="-9450" Width="94.5" Height="18.9" Text="[Page]" VertAlign="Center" Font="Amiri, 8pt"/>
+      <TextObject Name="Text49" Left="-9450" Top="-9450" Width="189" Height="18.9" Text="[Date]" VertAlign="Center" Font="Arial Black, 7pt"/>
+      <TextObject Name="Text50" Left="-8835.75" Top="-9450" Width="94.5" Height="18.9" Text="[Page]" VertAlign="Center" Font="Amiri, 8pt"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader2" Top="41.8" Width="718.2"/>
+    <DataBand Name="Data2" Top="45.8" Width="718.2" Height="907.2">
+      <TableObject Name="Table3" Left="28.35" Top="9.45" Width="652.05" Height="869.4" Border.Lines="All" Border.Color="Transparent">
+        <TableColumn Name="Column9" Width="226.8"/>
+        <TableColumn Name="Column10" Width="236.25"/>
+        <TableColumn Name="Column11" Width="94.5"/>
+        <TableColumn Name="Column12" Width="94.5"/>
+        <TableRow Name="Row9">
+          <TableCell Name="Cell49" Border.Lines="Bottom" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell50" Border.Lines="Bottom" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell51" Border.Lines="Bottom" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell52" Border.Lines="Bottom" Font="Arial, 10pt, style=Bold"/>
+        </TableRow>
+        <TableRow Name="Row10" Height="217.35">
+          <TableCell Name="Cell53" Border.Lines="All" Text="FOTO DA ETIQUETA DA FILA DO BASTIDOR" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell54" Border.Lines="All" Font="Arial, 10pt, style=Bold">
+            <PictureObject Name="img2" Left="9.45" Top="9.45" Width="217.35" Height="198.45" Border.Lines="All"/>
+          </TableCell>
+          <TableCell Name="Cell55" Border.Lines="All" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell56" Border.Lines="All" Font="Arial, 10pt, style=Bold"/>
+        </TableRow>
+        <TableRow Name="Row11" Height="198.45">
+          <TableCell Name="Cell57" Border.Lines="All" Text="FOTO DA BANDEJA/SUB INSTALADA E IDENTIFICADA NO BASTIDOR" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell58" Border.Lines="All" Font="Arial, 10pt">
+            <PictureObject Name="img3" Left="9.45" Top="9.45" Width="217.35" Height="179.55" Border.Lines="All"/>
+          </TableCell>
+          <TableCell Name="Cell59" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell60" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row12" Height="179.55">
+          <TableCell Name="Cell61" Border.Lines="All" Text="FOTO DAS FIBRAS FUSIONADAS E ACOMODADAS E IDENTIFICADAS NA BANDEJA" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell62" Border.Lines="All" Font="Arial, 10pt">
+            <PictureObject Name="img4" Left="9.45" Top="9.45" Width="217.35" Height="160.65" Border.Lines="All"/>
+          </TableCell>
+          <TableCell Name="Cell63" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell64" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row13" Height="56.7">
+          <TableCell Name="Cell65" Border.Lines="All" Text="QUANTIDADE DE FIBRAS PRIMÁRIAS/ENTRONCAMENTO UTILIZADAS NA BANDEJA DO BASTIDOR" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell66" Border.Lines="All" Text="[quantFibra]" VertAlign="Center" Font="Arial, 10pt"/>
+          <TableCell Name="Cell67" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell68" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row14" Height="198.45">
+          <TableCell Name="Cell69" Border.Lines="All" Text="FOTO DA FIBRA SEQUÊNCIA Nº 01 COM TELA DO OTDR E CURVA DE DESEMPENHO" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell70" Border.Lines="All" Font="Arial, 10pt">
+            <PictureObject Name="img5" Left="9.45" Top="9.45" Width="217.35" Height="179.55" Border.Lines="All"/>
+            <Highlight>
+              <Condition Expression="Value == 0" Font="Arial, 10pt"/>
+              <Condition Expression="Value == 0" Font="Arial, 10pt"/>
+            </Highlight>
+          </TableCell>
+          <TableCell Name="Cell71" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell72" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+      </TableObject>
+    </DataBand>
+    <PageFooterBand Name="PageFooter2" Top="957" Width="718.2" Height="18.9">
+      <TextObject Name="Text51" Left="28.35" Width="189" Height="18.9" Text="[Date]" VertAlign="Center" Font="Arial Black, 7pt"/>
+      <TextObject Name="Text52" Left="633.15" Width="94.5" Height="18.9" Text="[Page]" VertAlign="Center" Font="Amiri, 8pt"/>
+    </PageFooterBand>
+  </ReportPage>
+  <ReportPage Name="Page3" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle3" Width="718.2" Height="37.8"/>
+    <PageHeaderBand Name="PageHeader3" Top="41.8" Width="718.2" Height="18.9">
+      <TextObject Name="Text1" Left="784.35" Width="94.5" Height="18.9" Border.Lines="All" Text="caboUtili" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+    </PageHeaderBand>
+    <DataBand Name="Data3" Top="64.7" Width="718.2" Height="954.45">
+      <TableObject Name="Table4" Left="37.8" Width="642.54" Height="954.45" Border.Lines="All">
+        <TableColumn Name="Column13" Width="250.41"/>
+        <TableColumn Name="Column14" Width="184.26"/>
+        <TableColumn Name="Column15" Width="127.56"/>
+        <TableColumn Name="Column16" Width="80.31"/>
+        <TableRow Name="Row15" Height="189">
+          <TableCell Name="Cell73" Border.Lines="All" Text="FOTO DA FIBRA SEQUÊNCIA Nº 02 COM TELA DO OTDR E CURVA DE DESEMPENHO" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell74" Border.Lines="All" Font="Arial, 10pt">
+            <PictureObject Name="img6" Left="9.45" Top="9.45" Width="160.65" Height="170.1" Border.Lines="All"/>
+          </TableCell>
+          <TableCell Name="Cell75" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell76" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row16">
+          <TableCell Name="Cell78" Border.Lines="All" Text="LOCAL LIMPO" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell79" Border.Lines="All" Text="[localLimpo01]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell80" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell81" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row17" Height="217.35">
+          <TableCell Name="Cell83" Border.Lines="All" Text="FOTO GERAL DO AMBIENTE E ESTRUTURA ORGANIZADA E LIMPA APÓS CONCLUSÃO DA ATIVIDADE&#13;&#10;" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell84" Border.Lines="All" Font="Arial, 10pt">
+            <PictureObject Name="img7" Left="9.45" Top="9.45" Width="160.65" Height="198.45" Border.Lines="All"/>
+          </TableCell>
+          <TableCell Name="Cell85" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell86" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row18">
+          <TableCell Name="Cell88" Border.Lines="All" Text="ENLACE TOTAL DAS FIBRAS (metros)" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell89" Border.Lines="All" Text="[enlaceFribra]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell90" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell91" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row19" Height="189">
+          <TableCell Name="Cell93" Border.Lines="All" Text="FOTO DO NÍVEL DO SINAL DO GERADOR DE POTÊNCIA" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell94" Border.Lines="All" Font="Arial, 10pt">
+            <PictureObject Name="img8" Left="9.45" Top="9.45" Width="160.65" Height="170.1" Border.Lines="All"/>
+          </TableCell>
+          <TableCell Name="Cell95" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell96" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row20">
+          <TableCell Name="Cell97" Border.Lines="All" Text="COMENTÁRIOS&#13;&#10;" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell98" Border.Lines="All" Text="[comentario01]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell99" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell100" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row21">
+          <TableCell Name="Cell101" Border.Lines="All" Text="REDE EXTERNA&#13;&#10;" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+          <TableCell Name="Cell102" Border.Lines="All" Font="Arial, 8pt"/>
+          <TableCell Name="Cell103" Border.Lines="All" Text="Observações" Font="Arial, 8pt, style=Bold"/>
+          <TableCell Name="Cell104" Border.Lines="All" Text="Aprovado" Font="Arial, 8pt, style=Bold"/>
+        </TableRow>
+        <TableRow Name="Row22">
+          <TableCell Name="Cell105" Border.Lines="All" Text="TRABALHOS REALIZADOS EM:&#13;&#10;" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell106" Border.Lines="All" Text="[trabalhoRealizado]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell107" Border.Lines="All" Text="[obsTrabaReali]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell108" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row23">
+          <TableCell Name="Cell109" Border.Lines="All" Text="REDE EXTERNA SUBTERRÂNEA" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+          <TableCell Name="Cell110" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell111" Border.Lines="All" Text="Observações" Font="Arial, 8pt, style=Bold"/>
+          <TableCell Name="Cell112" Border.Lines="All" Text="Aprovado&#13;&#10;&#13;&#10;" Font="Arial, 8pt, style=Bold"/>
+        </TableRow>
+        <TableRow Name="Row24">
+          <TableCell Name="Cell113" Border.Lines="All" Text="QUANTIDADE DE CS'S QUE FORAM ABERTAS&#13;&#10;" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell114" Border.Lines="All" Text="[quantCssAberta]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell115" Border.Lines="All" Text="[obsCssAberta]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell116" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row25">
+          <TableCell Name="Cell117" Border.Lines="All" Text="CAPACIDADE DO CABO NESTA REDE" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell118" Border.Lines="All" Text="[capaCaboNestaRede]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell119" Border.Lines="All" Text="[obsCaboNestaRede]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell120" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row26">
+          <TableCell Name="Cell121" Border.Lines="All" Text="CABO UTILIZADO" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell122" Border.Lines="All" Text="[caboUtili]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell123" Border.Lines="All" Text="[obsCaboUtili]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell124" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row27" Height="47.25">
+          <TableCell Name="Cell125" Border.Lines="All" Text="NO CABO EXISTENTE, QUAL FOI A QUANTIDADE DE REABERTURAS/EMENDAS TRABALHADAS?" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell126" Border.Lines="All" Text="[quantCaboExistenteReaberEmendas]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell127" Border.Lines="All" Text="[obscaboexistente]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell128" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row28" Height="141.75">
+          <TableCell Name="Cell129" Border.Lines="All" Text="FOTO DA EMENDA ABERTA, COM FIBRAS FUSIONADAS NO PONTO DE INSERÇÃO, CABO NOVO AO CABO EXISTENTE OU A FOTO DA ÚLTIMA EMENDA TRABALHADA" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell130" Border.Lines="All" Font="Arial, 10pt">
+            <PictureObject Name="img9" Left="9.45" Top="9.45" Width="160.65" Height="122.85" Border.Lines="All"/>
+          </TableCell>
+          <TableCell Name="Cell131" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell132" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+      </TableObject>
+      <TextObject Name="Text59" Left="784.35" Top="661.5" Width="94.5" Height="18.9" Border.Lines="All" Text="[caboUtili]" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter3" Top="1023.15" Width="718.2" Height="18.9">
+      <TextObject Name="Text53" Left="37.8" Width="189" Height="18.9" Text="[Date]" VertAlign="Center" Font="Arial Black, 7pt"/>
+      <TextObject Name="Text54" Left="652.05" Width="94.5" Height="18.9" Text="[Page]" VertAlign="Center" Font="Amiri, 8pt"/>
+    </PageFooterBand>
+  </ReportPage>
+  <ReportPage Name="Page4" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle4" Width="718.2" Height="37.8"/>
+    <PageHeaderBand Name="PageHeader4" Top="41.8" Width="718.2" Height="28.35"/>
+    <DataBand Name="Data4" Top="74.15" Width="718.2" Height="954.45">
+      <TableObject Name="Table5" Left="37.8" Width="642.54" Height="954.45" Border.Lines="All">
+        <TableColumn Name="Column17" Width="165.36"/>
+        <TableColumn Name="Column18" Width="222.06"/>
+        <TableColumn Name="Column19" Width="174.81"/>
+        <TableColumn Name="Column20" Width="80.31"/>
+        <TableRow Name="Row29" Height="189">
+          <TableCell Name="Cell133" Border.Lines="All" Text="FOTO DA EMENDA FIXADA" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell134" Border.Lines="All" Font="Arial, 10pt">
+            <PictureObject Name="img11" Left="9.45" Top="9.45" Width="198.45" Height="170.1" Border.Lines="All"/>
+          </TableCell>
+          <TableCell Name="Cell135" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell136" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row30" Height="47.25">
+          <TableCell Name="Cell137" Border.Lines="All" Text="TRECHO SUBTERRÂNEO É O FINAL DA REDE/PROJETO EXTERNO?" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell138" Border.Lines="All" Text="[trechoSubFinal]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell139" Border.Lines="All" Text="[obsTrechoSubFinal]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell140" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row31" Height="37.8">
+          <TableCell Name="Cell141" Border.Lines="All" Text="METRAGEM DE CABO NA SOBRA, &quot;ROLO&quot;" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell142" Border.Lines="All" Text="[metragemCabo]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell143" Border.Lines="All" Text="[obsMetragemCabo]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell144" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row32" Height="217.35">
+          <TableCell Name="Cell145" Border.Lines="All" Text="FOTO DA SOBRA, &quot;ROLO&quot; DE CABO CHEGADA ENTRADA CLIENTE" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell146" Border.Lines="All" Font="Arial, 10pt">
+            <PictureObject Name="img12" Left="9.45" Top="9.45" Width="198.45" Height="198.45" Border.Lines="All"/>
+          </TableCell>
+          <TableCell Name="Cell147" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell148" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row33">
+          <TableCell Name="Cell149" Border.Lines="All" Text="LOCAL LIMPO" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell150" Border.Lines="All" Text="[limpo2]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell151" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell152" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row34" Height="236.25">
+          <TableCell Name="Cell153" Border.Lines="All" Text="FOTO GERAL DO AMBIENTE E ESTRUTURA ORGANIZADA E LIMPA APÓS CONCLUSÃO DA ATIVIDADE" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell154" Border.Lines="All" Font="Arial, 10pt">
+            <PictureObject Name="img13" Left="9.45" Top="9.45" Width="198.45" Height="217.35" Border.Lines="All"/>
+          </TableCell>
+          <TableCell Name="Cell155" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell156" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row35" Height="207.9">
+          <TableCell Name="Cell157" Border.Lines="All" Text="FOTO GERAL COM FACHADA CLIENTE" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell158" Border.Lines="All" Font="Arial, 10pt">
+            <PictureObject Name="img14" Left="9.45" Top="9.45" Width="198.45" Height="189" Border.Lines="All"/>
+          </TableCell>
+          <TableCell Name="Cell159" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell160" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+      </TableObject>
+    </DataBand>
+    <PageFooterBand Name="PageFooter4" Top="1032.6" Width="718.2" Height="18.9">
+      <TextObject Name="Text55" Left="37.8" Width="189" Height="18.9" Text="[Date]" VertAlign="Center" Font="Arial Black, 7pt"/>
+      <TextObject Name="Text56" Left="652.05" Width="94.5" Height="18.9" Text="[Page]" VertAlign="Center" Font="Amiri, 8pt"/>
+    </PageFooterBand>
+  </ReportPage>
+  <ReportPage Name="Page5" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle5" Width="718.2" Height="37.8"/>
+    <PageHeaderBand Name="PageHeader5" Top="41.8" Width="718.2" Height="28.35"/>
+    <DataBand Name="Data5" Top="74.15" Width="718.2" Height="935.55">
+      <TableObject Name="Table6" Left="37.8" Top="9.45" Width="642.54" Height="368.55" Border.Lines="All">
+        <TableColumn Name="Column21" Width="165.36"/>
+        <TableColumn Name="Column22" Width="222.06"/>
+        <TableColumn Name="Column23" Width="174.81"/>
+        <TableColumn Name="Column24" Width="80.31"/>
+        <TableRow Name="Row36" Height="189">
+          <TableCell Name="Cell161" Border.Lines="All" Text="FOTO DO NÍVEL DO SINAL NO CABO TERMINAL" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell162" Border.Lines="All" Font="Arial, 10pt">
+            <PictureObject Name="img15" Left="9.45" Top="9.45" Width="198.45" Height="170.1" Border.Lines="All"/>
+          </TableCell>
+          <TableCell Name="Cell163" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell164" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row37" Height="28.35">
+          <TableCell Name="Cell165" Border.Lines="All" Text="PERDA DO NÍVEL DE SINAL&#13;&#10;" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell166" Border.Lines="All" Text="[perdaNivelSinal]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell167" Border.Lines="All" Text="[obsPerdaNivelSinal]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell168" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row38">
+          <TableCell Name="Cell169" Border.Lines="All" Text="COMENTÁRIOS" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell170" Border.Lines="All" Text="[come01]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell171" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell172" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row39">
+          <TableCell Name="Cell173" Border.Lines="All" Text="CLIENTE&#13;&#10;" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+          <TableCell Name="Cell174" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell175" Border.Lines="All" Text="Observações" Font="Arial, 10pt, style=Bold"/>
+          <TableCell Name="Cell176" Border.Lines="All" Text="Aprovado" Font="Arial, 10pt, style=Bold"/>
+        </TableRow>
+        <TableRow Name="Row40" Height="56.7">
+          <TableCell Name="Cell177" Border.Lines="All" Text="HOUVE LANÇAMENTO INTERNO DE CABO NO CLIENTE?" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell178" Border.Lines="All" Text="[lancamentoCaboCliente]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell179" Border.Lines="All" Text="[obsLancamentoCaboCliente]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell180" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row41" Height="37.8">
+          <TableCell Name="Cell181" Border.Lines="All" Text="POSIÇÃO DAS FIBRAS NO CLIENTE" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell182" Border.Lines="All" Text="[posicaoFribra]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell183" Border.Lines="All" Text="[obsPosicaoFibra]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell184" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row42">
+          <TableCell Name="Cell185" Border.Lines="All" Text="COMENTÁRIOS" VertAlign="Center" Font="Arial, 8pt"/>
+          <TableCell Name="Cell186" Border.Lines="All" Text="[comen03]" Font="Arial, 10pt"/>
+          <TableCell Name="Cell187" Border.Lines="All" Font="Arial, 10pt"/>
+          <TableCell Name="Cell188" Border.Lines="All" Font="Arial, 10pt"/>
+        </TableRow>
+      </TableObject>
+    </DataBand>
+    <PageFooterBand Name="PageFooter5" Top="1013.7" Width="718.2" Height="18.9">
+      <TextObject Name="Text57" Left="37.8" Width="189" Height="18.9" Text="[Date]" VertAlign="Center" Font="Arial Black, 7pt"/>
+      <TextObject Name="Text58" Left="652.05" Width="94.5" Height="18.9" Text="[Page]" VertAlign="Center" Font="Amiri, 8pt"/>
     </PageFooterBand>
   </ReportPage>
 </Report>

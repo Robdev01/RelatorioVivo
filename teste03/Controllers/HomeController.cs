@@ -4,6 +4,7 @@ using FastReport;
 using Microsoft.AspNetCore.Mvc;
 using teste03.Models;
 using System.IO;
+using System.Drawing;
 
 namespace teste03.Controllers
 {
@@ -38,15 +39,58 @@ namespace teste03.Controllers
                 areaAT = "",
                 status = "",
                 certi = "",
-                numeroCert = "",
-                valorCent = "",
+                valorCert = "",
+                valCent = "",
                 obsCe = "",
                 valCabo = "",
                 obsAndarDoCen = "",
-                valAdarDoCen = "",
+                valAndarDoCen = "",
                 obsValdenCabo = "",
                 img1 = null,
-                obsImg1 = ""
+                obsImg1 = "",
+                // tela 02
+                quantFibra = "",
+                img2 = null,
+                img3 = null, 
+                img4 = null,
+                img5 = null,
+                // tela03
+                img6 = null,
+                localLimpo01 = "",
+                img7 = null,
+                enlaceFribra = "",
+                img8 = null,
+                comentario01 = "",
+                trabalhoRealizado = "",
+                obsTrabaReali = "",
+                quantCssAberta = "",
+                obsCssAberta = "",
+                caboUtili = "",
+                obsCaboUtili = "",
+                capaCaboNestaRede = "",
+                obsCaboNestaRede = "",
+                quantCaboExistenteReaberEmendas = "",
+                img9 = null,
+                // tela04
+                img11 = null,
+                trechoSubFinal ="",
+                obsTrechoSubFinal = "",
+                metragemCabo = "",
+                obsMetragemCabo = "",
+                img12 = null,
+                limpo2 = "",
+                img13 = null,
+                img14 = null,
+                // tela05
+                img15 = null,
+                perdaNivelSinal = "",
+                obsPerdaNivelSinal = "",
+                come01 = "",
+                lancamentoCaboCliente = "",
+                obsLancamentoCaboCliente = "",
+                posicaoFribra = "",
+                obsPosicaoFibra = "",
+                comen03 = ""
             };
 
             return View(model);
@@ -56,20 +100,6 @@ namespace teste03.Controllers
         public async Task<IActionResult> GerarRelatorioAsync(Cabecalho model)
         {
             ViewBag.Error = null;
-            byte[] imageBytes = null;
-
-            // Verificar se o arquivo de imagem foi enviado
-            if (model.img1 != null && model.img1.Length > 0)
-            {
-                using (var memoryStream = new MemoryStream())
-                {
-                    // Copiar a imagem para o MemoryStream
-                    await model.img1.CopyToAsync(memoryStream);
-
-                    // Converter a imagem para um array de bytes
-                    imageBytes = memoryStream.ToArray();
-                }
-            }
 
             // Verifica se o modelo é válido
             if (!ModelState.IsValid)
@@ -104,21 +134,106 @@ namespace teste03.Controllers
                 report.SetParameterValue("uf", model.uf);
                 report.SetParameterValue("areaAT", model.areaAT);
                 report.SetParameterValue("status", model.status);
+                
                 report.SetParameterValue("certi", model.certi);
-                report.SetParameterValue("numeroCert", model.numeroCert);
-                report.SetParameterValue("valorCent", model.valorCent);
+                report.SetParameterValue("valorCert", model.valorCert);
+
+                
+                report.SetParameterValue("valCent", model.valCent);
                 report.SetParameterValue("obsCe", model.obsCe);
+
                 report.SetParameterValue("valCabo", model.valCabo);
                 report.SetParameterValue("obsAndarDoCen", model.obsAndarDoCen);
-                report.SetParameterValue("valAdarDoCen", model.valAdarDoCen);
+
+                report.SetParameterValue("valAndarDoCen", model.valAndarDoCen);
                 report.SetParameterValue("obsValdenCabo", model.obsValdenCabo);
+
                 report.SetParameterValue("obsImg1", model.obsImg1);
 
-                // Passar a imagem diretamente como byte array para o relatório
-                if (imageBytes != null && imageBytes.Length > 0)
+                report.SetParameterValue("quantFibra", model.quantFibra);
+
+                // terceira tela
+                report.SetParameterValue("localLimpo01", model.localLimpo01);
+                report.SetParameterValue("enlaceFribra", model.enlaceFribra);
+                report.SetParameterValue("comentario01", model.comentario01);
+                report.SetParameterValue("trabalhoRealizado", model.trabalhoRealizado);
+                report.SetParameterValue("obsTrabaReali", model.obsTrabaReali);
+                report.SetParameterValue("quantCssAberta", model.quantCssAberta);
+                report.SetParameterValue("capaCaboNestaRede", model.capaCaboNestaRede);
+                report.SetParameterValue("obsCssAberta", model.obsCssAberta);
+
+                report.SetParameterValue("caboUtili", model.caboUtili);
+                report.SetParameterValue("obsCaboUtili", model.obsCaboUtili);
+                report.SetParameterValue("obsCaboNestaRede", model.obsCaboNestaRede);
+                report.SetParameterValue("quantCaboExistenteReaberEmendas", model.quantCaboExistenteReaberEmendas);
+
+
+                report.SetParameterValue("trechoSubFinal", model.trechoSubFinal);
+                report.SetParameterValue("obsTrechoSubFinal", model.obsTrechoSubFinal);
+                report.SetParameterValue("metragemCabo", model.metragemCabo);
+                report.SetParameterValue("obsMetragemCabo", model.obsMetragemCabo);
+                report.SetParameterValue("limpo2", model.limpo2);
+
+                report.SetParameterValue("perdaNivelSinal", model.perdaNivelSinal);
+                report.SetParameterValue("obsPerdaNivelSinal", model.obsPerdaNivelSinal);
+                report.SetParameterValue("come01", model.come01);
+                report.SetParameterValue("lancamentoCaboCliente", model.lancamentoCaboCliente);
+                report.SetParameterValue("obsLancamentoCaboCliente", model.obsLancamentoCaboCliente);
+                report.SetParameterValue("posicaoFribra", model.posicaoFribra);
+                report.SetParameterValue("obsPosicaoFibra", model.obsPosicaoFibra);
+                report.SetParameterValue("comen03", model.comen03);
+
+                // Função para processar uma imagem
+                async Task ProcessarImagem(IFormFile imagem, string nomeObjeto)
                 {
-                    report.SetParameterValue("img1", imageBytes);
+                    if (imagem != null && imagem.Length > 0)
+                    {
+                        using (var memoryStream = new MemoryStream())
+                        {
+                            // Copiar a imagem para o MemoryStream
+                            await imagem.CopyToAsync(memoryStream);
+
+                            // Converter a imagem para um array de bytes
+                            byte[] imageBytes = memoryStream.ToArray();
+
+                            // Encontrar o objeto de imagem no relatório
+                            PictureObject pictureObject = report.FindObject(nomeObjeto) as PictureObject;
+
+                            if (pictureObject != null)
+                            {
+                                // Limpar a imagem existente e atribuir a nova
+                                pictureObject.Image = null;
+                                using (var ms = new MemoryStream(imageBytes))
+                                {
+                                    pictureObject.Image = Image.FromStream(ms);
+                                }
+                            }
+                        }
+                    }
                 }
+
+                // Processar cada imagem enviada pelo usuário
+                await ProcessarImagem(model.img1, "img10"); // Processar img1
+                await ProcessarImagem(model.img2, "img2");
+                await ProcessarImagem(model.img3, "img3");
+                await ProcessarImagem(model.img4, "img4");
+
+                await ProcessarImagem(model.img5, "img5");
+
+                // terceira tela
+                await ProcessarImagem(model.img6, "img6");
+                await ProcessarImagem(model.img7, "img7");
+                await ProcessarImagem(model.img8, "img8");
+                await ProcessarImagem(model.img9, "img9");
+                // Quarta tela
+                await ProcessarImagem(model.img11, "img11");
+                await ProcessarImagem(model.img12, "img12");
+                await ProcessarImagem(model.img13, "img13");
+                await ProcessarImagem(model.img14, "img14");
+                // Quarta tela
+                await ProcessarImagem(model.img15, "img15");
+
+
 
                 // Preparar o relatório
                 report.Prepare();
@@ -140,4 +255,5 @@ namespace teste03.Controllers
         }
     }
 }
+
 
