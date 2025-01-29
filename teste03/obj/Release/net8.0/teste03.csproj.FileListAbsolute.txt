@@ -88,3 +88,9 @@ C:\Users\0102062077\Documents\ArquivoEditar\teste03\RelatorioVivo\teste03\obj\Re
 C:\Users\0102062077\Documents\ArquivoEditar\teste03\RelatorioVivo\teste03\obj\Release\net8.0\teste03.pdb
 C:\Users\0102062077\Documents\ArquivoEditar\teste03\RelatorioVivo\teste03\obj\Release\net8.0\teste03.genruntimeconfig.cache
 C:\Users\0102062077\Documents\ArquivoEditar\teste03\RelatorioVivo\teste03\obj\Release\net8.0\ref\teste03.dll
+C:\Users\0102062077\Documents\ArquivoEditar\teste03\RelatorioVivo\teste03\bin\Release\net8.0\publish\web.config
+C:\Users\0102062077\Documents\ArquivoEditar\teste03\RelatorioVivo\teste03\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\0102062077\Documents\ArquivoEditar\teste03\RelatorioVivo\teste03\bin\Release\net8.0\publish\appsettings.json
+C:\Users\0102062077\Documents\ArquivoEditar\teste03\RelatorioVivo\teste03\bin\Release\net8.0\publish\teste03.deps.json
+C:\Users\0102062077\Documents\ArquivoEditar\teste03\RelatorioVivo\teste03\bin\Release\net8.0\publish\teste03.runtimeconfig.json
+C:\Users\0102062077\Documents\ArquivoEditar\teste03\RelatorioVivo\teste03\bin\Release\net8.0\publish\teste03.staticwebassets.endpoints.json

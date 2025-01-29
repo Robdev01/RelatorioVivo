@@ -182,3 +182,4 @@ C:\Users\0102062077\Documents\ArquivoEditar\teste03\RelatorioVivo\teste03\bin\De
 C:\Users\0102062077\Documents\ArquivoEditar\teste03\RelatorioVivo\teste03\bin\Debug\net8.0\publish\teste03.deps.json
 C:\Users\0102062077\Documents\ArquivoEditar\teste03\RelatorioVivo\teste03\bin\Debug\net8.0\publish\teste03.runtimeconfig.json
 C:\Users\0102062077\Documents\ArquivoEditar\teste03\RelatorioVivo\teste03\bin\Debug\net8.0\publish\teste03.staticwebassets.endpoints.json
+C:\Users\0102062077\Documents\ArquivoEditar\teste03\RelatorioVivo\teste03\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -63,3 +63,5 @@ wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\uploads\logo_capital.png
+wwwroot\uploads\Relatório Monitoramento (1).jpg
+wwwroot\uploads\Vivo.png

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8q6/ovH+vLcSZP9CmbxTGk+86bBJDHgwQSPm85gAVgk=",
+  "Hash": "hjQCm0syuWAa+xQrBN+hVMx7x6cWtE0G5JLWx10x8yA=",
   "Source": "teste03",
   "BasePath": "_content/teste03",
   "Mode": "Default",
@@ -1422,6 +1422,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\logo_capital.png"
+    },
+    {
+      "Identity": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\uploads\\Relatório Monitoramento (1).jpg",
+      "SourceId": "teste03",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\",
+      "BasePath": "_content/teste03",
+      "RelativePath": "uploads/Relatório Monitoramento (1)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v1gyk2pid8",
+      "Integrity": "w3GUTbDYJbQC2n8UAvbCGdgJzSZwrhX/tclv5CONc7I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Relatório Monitoramento (1).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\uploads\\Vivo.png",
+      "SourceId": "teste03",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\",
+      "BasePath": "_content/teste03",
+      "RelativePath": "uploads/Vivo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3sqsb87ck8",
+      "Integrity": "bQ40XwF/lpGvtJhw6vYFCbWFb3gO1qjlbDrvHLDsRlc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Vivo.png"
     }
   ],
   "Endpoints": [
@@ -6916,6 +6958,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-KCZsURKVNvY37kxEPI4/p29lgR7kpt+Ybo5w8paZkT4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Relatório Monitoramento (1).jpg",
+      "AssetFile": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\uploads\\Relatório Monitoramento (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w3GUTbDYJbQC2n8UAvbCGdgJzSZwrhX/tclv5CONc7I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Jan 2025 14:23:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w3GUTbDYJbQC2n8UAvbCGdgJzSZwrhX/tclv5CONc7I="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Relatório Monitoramento (1).v1gyk2pid8.jpg",
+      "AssetFile": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\uploads\\Relatório Monitoramento (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w3GUTbDYJbQC2n8UAvbCGdgJzSZwrhX/tclv5CONc7I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Jan 2025 14:23:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v1gyk2pid8"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Relatório Monitoramento (1).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w3GUTbDYJbQC2n8UAvbCGdgJzSZwrhX/tclv5CONc7I="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Vivo.3sqsb87ck8.png",
+      "AssetFile": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\uploads\\Vivo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bQ40XwF/lpGvtJhw6vYFCbWFb3gO1qjlbDrvHLDsRlc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 12:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3sqsb87ck8"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Vivo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bQ40XwF/lpGvtJhw6vYFCbWFb3gO1qjlbDrvHLDsRlc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Vivo.png",
+      "AssetFile": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\uploads\\Vivo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bQ40XwF/lpGvtJhw6vYFCbWFb3gO1qjlbDrvHLDsRlc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 12:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bQ40XwF/lpGvtJhw6vYFCbWFb3gO1qjlbDrvHLDsRlc="
         }
       ]
     }

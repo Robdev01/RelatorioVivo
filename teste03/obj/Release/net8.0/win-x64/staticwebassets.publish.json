@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9nQucS+jFKv4UoR9nXn0zYRrvyJn8lPEN1IlwP6gsD0=",
+  "Hash": "tBdDb2kw3uET+0OCP6LKbeUOOHqT70WpjWR8dkyT/08=",
   "Source": "teste03",
   "BasePath": "_content/teste03",
   "Mode": "Default",
@@ -120,27 +120,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\favicon.ico",
-      "SourceId": "teste03",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\",
-      "BasePath": "_content/teste03",
-      "RelativePath": "favicon#[.{fingerprint}]?.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "61n19gt1b8",
-      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
       "Identity": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\js\\bootstrap.js",
@@ -1403,6 +1382,27 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\logo_capital-removebg-preview.ico",
+      "SourceId": "teste03",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\",
+      "BasePath": "_content/teste03",
+      "RelativePath": "logo_capital-removebg-preview#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4rsoxg0isd",
+      "Integrity": "cNf1a61xsojORu6fqMdkdQQYQo+O7SHV84RAaJPtmv4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo_capital-removebg-preview.ico"
+    },
+    {
       "Identity": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\uploads\\logo_capital.png",
       "SourceId": "teste03",
       "SourceType": "Discovered",
@@ -1710,88 +1710,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\favicon.ico",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5430"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 14:58:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "61n19gt1b8"
-        },
-        {
-          "Name": "label",
-          "Value": "favicon.ico"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\favicon.ico",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5430"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 14:58:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
         }
       ]
     },
@@ -6712,6 +6630,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
+        }
+      ]
+    },
+    {
+      "Route": "logo_capital-removebg-preview.4rsoxg0isd.ico",
+      "AssetFile": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\logo_capital-removebg-preview.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202814"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cNf1a61xsojORu6fqMdkdQQYQo+O7SHV84RAaJPtmv4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Jan 2025 18:43:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4rsoxg0isd"
+        },
+        {
+          "Name": "label",
+          "Value": "logo_capital-removebg-preview.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cNf1a61xsojORu6fqMdkdQQYQo+O7SHV84RAaJPtmv4="
+        }
+      ]
+    },
+    {
+      "Route": "logo_capital-removebg-preview.ico",
+      "AssetFile": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\logo_capital-removebg-preview.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202814"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cNf1a61xsojORu6fqMdkdQQYQo+O7SHV84RAaJPtmv4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Jan 2025 18:43:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cNf1a61xsojORu6fqMdkdQQYQo+O7SHV84RAaJPtmv4="
         }
       ]
     },

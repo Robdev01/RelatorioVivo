@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Report ScriptLanguage="CSharp" ReportInfo.Created="01/24/2025 09:13:23" ReportInfo.Modified="01/29/2025 11:32:46" ReportInfo.CreatorVersion="2025.1.0.0">
+<Report ScriptLanguage="CSharp" ReportInfo.Created="01/24/2025 09:13:23" ReportInfo.Modified="01/29/2025 12:49:49" ReportInfo.CreatorVersion="2025.1.0.0">
   <Dictionary>
     <Parameter Name="area" DataType="System.String" AsString=""/>
     <Parameter Name="estado" DataType="System.String" AsString=""/>
@@ -59,8 +59,8 @@
   </Dictionary>
   <ReportPage Name="Page1" Watermark.Font="Arial, 60pt">
     <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="113.4">
-      <PictureObject Name="Picture2" Left="321.3" Top="18.9" Width="453.6" Height="75.6" ImageLocation="C:\Users\0102062077\Documents\Vivo.png" ImageFormat="Png"/>
-      <PictureObject Name="Picture3" Left="56.7" Top="18.9" Width="198.45" Height="75.6" ImageLocation="C:\Users\0102062077\Downloads\Relatório Monitoramento (1).jpg" ImageFormat="Jpeg"/>
+      <PictureObject Name="Picture2" Left="321.3" Top="18.9" Width="453.6" Height="75.6" ImageLocation="C:\Users\0102062077\Documents\ArquivoEditar\teste03\RelatorioVivo\teste03\wwwroot\uploads\Vivo.png" ImageFormat="Png"/>
+      <PictureObject Name="Picture3" Left="56.7" Top="18.9" Width="198.45" Height="75.6" ImageLocation="C:\Users\0102062077\Documents\ArquivoEditar\teste03\RelatorioVivo\teste03\wwwroot\uploads\Relatório Monitoramento (1).jpg" ImageFormat="Jpeg"/>
     </ReportTitleBand>
     <PageHeaderBand Name="PageHeader1" Top="117.4" Width="718.2" Height="47.25">
       <TextObject Name="Text9" Left="28.35" Top="28.35" Width="264.6" Height="18.9" Border.Color="Transparent" Text="Relatório Certificação nº" Font="Arial, 12pt, style=Bold" TextFill.Color="Indigo"/>
@@ -165,7 +165,7 @@
         <TableRow Name="Row8" Height="132.3">
           <TableCell Name="Cell45" Border.Lines="All" Text="FOTO DO BASTIDOR IDENTIFICADO" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
           <TableCell Name="Cell46" Border.Lines="All" Font="Arial, 10pt">
-            <PictureObject Name="img10" Top="9.45" Width="226.8" Height="113.4" ExportableExpression="[img1]" CanGrow="true" CanShrink="true" ImageSourceExpression="[area]" Image=""/>
+            <PictureObject Name="img10" Top="9.45" Width="226.8" Height="113.4" ExportableExpression="[img1]" CanGrow="true" CanShrink="true" ImageSourceExpression="[area]"/>
             <Highlight>
               <Condition Expression="Value == 0" Font="Arial, 10pt"/>
               <Condition Expression="Value == 0" Font="Arial, 10pt"/>
@@ -204,7 +204,7 @@
         <TableRow Name="Row10" Height="217.35">
           <TableCell Name="Cell53" Border.Lines="All" Text="FOTO DA ETIQUETA DA FILA DO BASTIDOR" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
           <TableCell Name="Cell54" Border.Lines="All" Font="Arial, 10pt, style=Bold">
-            <PictureObject Name="img2" Left="9.45" Top="9.45" Width="217.35" Height="198.45" Border.Lines="All" Image=""/>
+            <PictureObject Name="img2" Left="9.45" Top="9.45" Width="217.35" Height="198.45" Border.Lines="All"/>
           </TableCell>
           <TableCell Name="Cell55" Border.Lines="All" Font="Arial, 10pt, style=Bold"/>
           <TableCell Name="Cell56" Border.Lines="All" Font="Arial, 10pt, style=Bold"/>
@@ -212,7 +212,7 @@
         <TableRow Name="Row11" Height="198.45">
           <TableCell Name="Cell57" Border.Lines="All" Text="FOTO DA BANDEJA/SUB INSTALADA E IDENTIFICADA NO BASTIDOR" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
           <TableCell Name="Cell58" Border.Lines="All" Font="Arial, 10pt">
-            <PictureObject Name="img3" Left="9.45" Top="9.45" Width="217.35" Height="179.55" Border.Lines="All" Image=""/>
+            <PictureObject Name="img3" Left="9.45" Top="9.45" Width="217.35" Height="179.55" Border.Lines="All"/>
           </TableCell>
           <TableCell Name="Cell59" Border.Lines="All" Font="Arial, 10pt"/>
           <TableCell Name="Cell60" Border.Lines="All" Font="Arial, 10pt"/>
@@ -220,7 +220,7 @@
         <TableRow Name="Row12" Height="179.55">
           <TableCell Name="Cell61" Border.Lines="All" Text="FOTO DAS FIBRAS FUSIONADAS E ACOMODADAS E IDENTIFICADAS NA BANDEJA" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
           <TableCell Name="Cell62" Border.Lines="All" Font="Arial, 10pt">
-            <PictureObject Name="img4" Left="9.45" Top="9.45" Width="217.35" Height="160.65" Border.Lines="All" Image=""/>
+            <PictureObject Name="img4" Left="9.45" Top="9.45" Width="217.35" Height="160.65" Border.Lines="All"/>
           </TableCell>
           <TableCell Name="Cell63" Border.Lines="All" Font="Arial, 10pt"/>
           <TableCell Name="Cell64" Border.Lines="All" Font="Arial, 10pt"/>
@@ -234,7 +234,7 @@
         <TableRow Name="Row14" Height="198.45">
           <TableCell Name="Cell69" Border.Lines="All" Text="FOTO DA FIBRA SEQUÊNCIA Nº 01 COM TELA DO OTDR E CURVA DE DESEMPENHO" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
           <TableCell Name="Cell70" Border.Lines="All" Font="Arial, 10pt">
-            <PictureObject Name="img5" Left="9.45" Top="9.45" Width="217.35" Height="179.55" Border.Lines="All" Image=""/>
+            <PictureObject Name="img5" Left="9.45" Top="9.45" Width="217.35" Height="179.55" Border.Lines="All"/>
             <Highlight>
               <Condition Expression="Value == 0" Font="Arial, 10pt"/>
               <Condition Expression="Value == 0" Font="Arial, 10pt"/>
@@ -264,7 +264,7 @@
         <TableRow Name="Row15" Height="189">
           <TableCell Name="Cell73" Border.Lines="All" Text="FOTO DA FIBRA SEQUÊNCIA Nº 02 COM TELA DO OTDR E CURVA DE DESEMPENHO" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
           <TableCell Name="Cell74" Border.Lines="All" Font="Arial, 10pt">
-            <PictureObject Name="img6" Left="9.45" Top="9.45" Width="160.65" Height="170.1" Border.Lines="All" Image=""/>
+            <PictureObject Name="img6" Left="9.45" Top="9.45" Width="160.65" Height="170.1" Border.Lines="All"/>
           </TableCell>
           <TableCell Name="Cell75" Border.Lines="All" Font="Arial, 10pt"/>
           <TableCell Name="Cell76" Border.Lines="All" Font="Arial, 10pt"/>
@@ -278,7 +278,7 @@
         <TableRow Name="Row17" Height="217.35">
           <TableCell Name="Cell83" Border.Lines="All" Text="FOTO GERAL DO AMBIENTE E ESTRUTURA ORGANIZADA E LIMPA APÓS CONCLUSÃO DA ATIVIDADE&#13;&#10;" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
           <TableCell Name="Cell84" Border.Lines="All" Font="Arial, 10pt">
-            <PictureObject Name="img7" Left="9.45" Top="9.45" Width="160.65" Height="198.45" Border.Lines="All" Image=""/>
+            <PictureObject Name="img7" Left="9.45" Top="9.45" Width="160.65" Height="198.45" Border.Lines="All"/>
           </TableCell>
           <TableCell Name="Cell85" Border.Lines="All" Font="Arial, 10pt"/>
           <TableCell Name="Cell86" Border.Lines="All" Font="Arial, 10pt"/>
@@ -292,7 +292,7 @@
         <TableRow Name="Row19" Height="189">
           <TableCell Name="Cell93" Border.Lines="All" Text="FOTO DO NÍVEL DO SINAL DO GERADOR DE POTÊNCIA" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
           <TableCell Name="Cell94" Border.Lines="All" Font="Arial, 10pt">
-            <PictureObject Name="img8" Left="9.45" Top="9.45" Width="160.65" Height="170.1" Border.Lines="All" Image=""/>
+            <PictureObject Name="img8" Left="9.45" Top="9.45" Width="160.65" Height="170.1" Border.Lines="All"/>
           </TableCell>
           <TableCell Name="Cell95" Border.Lines="All" Font="Arial, 10pt"/>
           <TableCell Name="Cell96" Border.Lines="All" Font="Arial, 10pt"/>
@@ -348,7 +348,7 @@
         <TableRow Name="Row28" Height="141.75">
           <TableCell Name="Cell129" Border.Lines="All" Text="FOTO DA EMENDA ABERTA, COM FIBRAS FUSIONADAS NO PONTO DE INSERÇÃO, CABO NOVO AO CABO EXISTENTE OU A FOTO DA ÚLTIMA EMENDA TRABALHADA" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
           <TableCell Name="Cell130" Border.Lines="All" Font="Arial, 10pt">
-            <PictureObject Name="img9" Left="9.45" Top="9.45" Width="160.65" Height="122.85" Border.Lines="All" Image=""/>
+            <PictureObject Name="img9" Left="9.45" Top="9.45" Width="160.65" Height="122.85" Border.Lines="All"/>
           </TableCell>
           <TableCell Name="Cell131" Border.Lines="All" Font="Arial, 10pt"/>
           <TableCell Name="Cell132" Border.Lines="All" Font="Arial, 10pt"/>
@@ -373,7 +373,7 @@
         <TableRow Name="Row29" Height="189">
           <TableCell Name="Cell133" Border.Lines="All" Text="FOTO DA EMENDA FIXADA" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
           <TableCell Name="Cell134" Border.Lines="All" Font="Arial, 10pt">
-            <PictureObject Name="img11" Left="9.45" Top="9.45" Width="198.45" Height="170.1" Border.Lines="All" Image=""/>
+            <PictureObject Name="img11" Left="9.45" Top="9.45" Width="198.45" Height="170.1" Border.Lines="All"/>
           </TableCell>
           <TableCell Name="Cell135" Border.Lines="All" Font="Arial, 10pt"/>
           <TableCell Name="Cell136" Border.Lines="All" Font="Arial, 10pt"/>
@@ -393,7 +393,7 @@
         <TableRow Name="Row32" Height="217.35">
           <TableCell Name="Cell145" Border.Lines="All" Text="FOTO DA SOBRA, &quot;ROLO&quot; DE CABO CHEGADA ENTRADA CLIENTE" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
           <TableCell Name="Cell146" Border.Lines="All" Font="Arial, 10pt">
-            <PictureObject Name="img12" Left="9.45" Top="9.45" Width="198.45" Height="198.45" Border.Lines="All" Image=""/>
+            <PictureObject Name="img12" Left="9.45" Top="9.45" Width="198.45" Height="198.45" Border.Lines="All"/>
           </TableCell>
           <TableCell Name="Cell147" Border.Lines="All" Font="Arial, 10pt"/>
           <TableCell Name="Cell148" Border.Lines="All" Font="Arial, 10pt"/>
@@ -407,7 +407,7 @@
         <TableRow Name="Row34" Height="236.25">
           <TableCell Name="Cell153" Border.Lines="All" Text="FOTO GERAL DO AMBIENTE E ESTRUTURA ORGANIZADA E LIMPA APÓS CONCLUSÃO DA ATIVIDADE" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
           <TableCell Name="Cell154" Border.Lines="All" Font="Arial, 10pt">
-            <PictureObject Name="img13" Left="9.45" Top="9.45" Width="198.45" Height="217.35" Border.Lines="All" Image=""/>
+            <PictureObject Name="img13" Left="9.45" Top="9.45" Width="198.45" Height="217.35" Border.Lines="All"/>
           </TableCell>
           <TableCell Name="Cell155" Border.Lines="All" Font="Arial, 10pt"/>
           <TableCell Name="Cell156" Border.Lines="All" Font="Arial, 10pt"/>
@@ -415,7 +415,7 @@
         <TableRow Name="Row35" Height="207.9">
           <TableCell Name="Cell157" Border.Lines="All" Text="FOTO GERAL COM FACHADA CLIENTE" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
           <TableCell Name="Cell158" Border.Lines="All" Font="Arial, 10pt">
-            <PictureObject Name="img14" Left="9.45" Top="9.45" Width="198.45" Height="189" Border.Lines="All" Image=""/>
+            <PictureObject Name="img14" Left="9.45" Top="9.45" Width="198.45" Height="189" Border.Lines="All"/>
           </TableCell>
           <TableCell Name="Cell159" Border.Lines="All" Font="Arial, 10pt"/>
           <TableCell Name="Cell160" Border.Lines="All" Font="Arial, 10pt"/>
@@ -439,7 +439,7 @@
         <TableRow Name="Row36" Height="189">
           <TableCell Name="Cell161" Border.Lines="All" Text="FOTO DO NÍVEL DO SINAL NO CABO TERMINAL" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
           <TableCell Name="Cell162" Border.Lines="All" Font="Arial, 10pt">
-            <PictureObject Name="img15" Left="9.45" Top="9.45" Width="198.45" Height="170.1" Border.Lines="All" Image=""/>
+            <PictureObject Name="img15" Left="9.45" Top="9.45" Width="198.45" Height="170.1" Border.Lines="All"/>
           </TableCell>
           <TableCell Name="Cell163" Border.Lines="All" Font="Arial, 10pt"/>
           <TableCell Name="Cell164" Border.Lines="All" Font="Arial, 10pt"/>
