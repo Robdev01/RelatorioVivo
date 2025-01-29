@@ -1,313 +1,320 @@
 ﻿@model teste03.Models.Cabecalho
 
 <body>
-    <h1>Gerar Relatório</h1>
-
+    
     <form method="post" asp-action="GerarRelatorio" asp-controller="Home" enctype="multipart/form-data">
-        <div>
-            <label for="area">Área:</label>
-            <input type="text" id="area" name="area" value="@Model.area" required />
-        </div>
-        <div>
-            <label for="estado">Estado:</label>
-            <input type="text" id="estado" name="estado" value="@Model.estado" required />
-        </div>
-        <div>
-            <label for="usuario">Usuário:</label>
-            <input type="text" id="usuario" name="usuario" value="@Model.usuario" required />
-        </div>
-        <div>
-            <label for="empresa">Empresa:</label>
-            <input type="text" id="empresa" name="empresa" value="@Model.empresa" required />
-        </div>
-        <div>
-            <label for="inicio">Início:</label>
-            <input type="date" id="inicio" name="inicio" value="@Model.inicio.ToString("yyyy-MM-dd")" required />
-        </div>
-        <div>
-            <label for="fim">Fim:</label>
-            <input type="date" id="fim" name="fim" value="@Model.fim.ToString("yyyy-MM-dd")" required />
-        </div>
-        <div>
-            <label for="envio">Envio:</label>
-            <input type="date" id="envio" name="envio" value="@Model.envio.ToString("yyyy-MM-dd")" required />
-        </div>
-        <div>
-            <label for="aprovado">Aprovado:</label>
-            <input type="text" id="aprovado" name="aprovado" value="@Model.aprovado" required />
-        </div>
-        <div>
-            <label for="aprovacao">Aprovação:</label>
-            <input type="text" id="aprovacao" name="aprovacao" value="@Model.aprovacao" required />
-        </div>
-        <div>
-            <label for="cod">Código:</label>
-            <input type="text" id="cod" name="cod" value="@Model.cod" required />
-        </div>
-        <div>
-            <label for="numeroATP">Número ATP:</label>
-            <input type="text" id="numeroATP" name="numeroATP" value="@Model.numeroATP" required />
-        </div>
-        <div>
-            <label for="cliente">Cliente:</label>
-            <input type="text" id="cliente" name="cliente" value="@Model.cliente" required />
-        </div>
-        <div>
-            <label for="endereco">Endereço:</label>
-            <input type="text" id="endereco" name="endereco" value="@Model.endereco" required />
-        </div>
-        <div>
-            <label for="municipio">Município:</label>
-            <input type="text" id="municipio" name="municipio" value="@Model.municipio" required />
-        </div>
-        <div>
-            <label for="uf">UF:</label>
-            <input type="text" id="uf" name="uf" value="@Model.uf" required />
-        </div>
-        <div>
-            <label for="areaAT">Área AT:</label>
-            <input type="text" id="areaAT" name="areaAT" value="@Model.areaAT" required />
-        </div>
-        <div>
-            <label for="status">Status:</label>
-            <input type="text" id="status" name="status" value="@Model.status" required />
+        <br />
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="area" class="form-label">Área:</label>
+                    <input type="text" id="area" name="area" value="@Model.area" class="form-control" required />
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="estado" class="form-label">Estado:</label>
+                    <input type="text" id="estado" name="estado" value="@Model.estado" class="form-control" required />
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="usuario" class="form-label">Usuário:</label>
+                    <input type="text" id="usuario" name="usuario" value="@Model.usuario" class="form-control" required />
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="empresa" class="form-label">Empresa:</label>
+                    <input type="text" id="empresa" name="empresa" value="@Model.empresa" class="form-control" required />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <label for="inicio" class="form-label">Início:</label>
+                    <input type="date" id="inicio" name="inicio" value="@Model.inicio.ToString("yyyy-MM-dd")" class="form-control" required />
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="fim" class="form-label">Fim:</label>
+                    <input type="date" id="fim" name="fim" value="@Model.fim.ToString("yyyy-MM-dd")" class="form-control" required />
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="envio" class="form-label">Envio:</label>
+                    <input type="date" id="envio" name="envio" value="@Model.envio.ToString("yyyy-MM-dd")" class="form-control" required />
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="aprovado" class="form-label">Aprovado:</label>
+                    <input type="text" id="aprovado" name="aprovado" value="@Model.aprovado" class="form-control" required />
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="aprovacao" class="form-label">Aprovação:</label>
+                    <input type="text" id="aprovacao" name="aprovacao" value="@Model.aprovacao" class="form-control" required />
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="cod" class="form-label">Código:</label>
+                    <input type="text" id="cod" name="cod" value="@Model.cod" class="form-control" required />
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="numeroATP" class="form-label">Número ATP:</label>
+                    <input type="text" id="numeroATP" name="numeroATP" value="@Model.numeroATP" class="form-control" required />
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label for="cliente" class="form-label">Cliente:</label>
+                    <input type="text" id="cliente" name="cliente" value="@Model.cliente" class="form-control" required />
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label for="endereco" class="form-label">Endereço:</label>
+                    <input type="text" id="endereco" name="endereco" value="@Model.endereco" class="form-control" required />
+                </div>
+                <div class="col-md-8 mb-3">
+                    <label for="municipio" class="form-label">Município:</label>
+                    <input type="text" id="municipio" name="municipio" value="@Model.municipio" class="form-control" required />
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="uf" class="form-label">UF:</label>
+                    <input type="text" id="uf" name="uf" value="@Model.uf" class="form-control" required />
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="areaAT" class="form-label">Área AT:</label>
+                    <input type="text" id="areaAT" name="areaAT" value="@Model.areaAT" class="form-control" required />
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="status" class="form-label">Status:</label>
+                    <input type="text" id="status" name="status" value="@Model.status" class="form-control" required />
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label for="valorCert" class="form-label">Quantidade de abordagem - modelos caixas:</label>
+                    <input type="text" id="valorCert" name="valorCert" value="@Model.valorCert" class="form-control"/>
+                </div>
+                <!-- Valor Cent -->
+                <div class="col-md-6 mb-3">
+                    <label for="valCent" class="form-label">Valor Cent:</label>
+                    <input type="text" id="valCent" name="valCent" value="@Model?.valCent" class="form-control" />
+                </div>
+                <!-- Observação Certificado -->
+                <div class="col-md-6 mb-3">
+                    <label for="obsCe" class="form-label">Observação Certificado:</label>
+                    <input type="text" id="obsCe" name="obsCe" value="@Model?.obsCe" class="form-control" />
+                </div>
+                <!-- Valor Cabo -->
+                <div class="col-md-6 mb-3">
+                    <label for="valCabo" class="form-label">Valor Cabo:</label>
+                    <input type="text" id="valCabo" name="valCabo" value="@Model?.valCabo" class="form-control"/>
+                </div>
+
+                <!-- Observação Andar do Cen -->
+                <div class="col-md-6 mb-3">
+                    <label for="obsAndarDoCen" class=" form-label">Observação Andar do Cen:</label>
+                    <input type="text" id="obsAndarDoCen" name="obsAndarDoCen" value="@Model?.obsAndarDoCen" class="form-control"/>
+                </div>
+
+                <!-- Valor Andar do Cen -->
+                <div class="col-md-6 mb-3">
+                    <label for="valAndarDoCen" class="form-label">Valor Andar do Cen:</label>
+                    <input type="text" id="valAndarDoCen" name="valAndarDoCen" value="@Model?.valAndarDoCen" class="form-control" />
+                </div>
+
+                <!-- Observação Valden Cabo -->
+                <div class="col-md-6 mb-3">
+                    <label for="obsValdenCabo" class="form-label">Observação Valden Cabo:</label>
+                    <input type="text" id="obsValdenCabo" name="obsValdenCabo" value="@Model?.obsValdenCabo" class="form-control"/>
+                </div>
+                <div class="col-md-8 mb-3">
+                    <label for="img1" class="form-label">FOTO DO BASTIDOR IDENTIFICADO:</label>
+                    <input class="form-control" type="file" id="img1" name="img1" accept="image/*">
+                </div>
+                <!-- Observação da Imagem -->
+                <div class="col-md-12 mb-3">
+                    <label for="obsImg1" class="form-label">Observação da Imagem:</label>
+                    <input type="text" id="obsImg1" name="obsImg1" value="@Model.obsImg1" class="form-control" />
+                </div>
+                <!-- Página 2 -->
+                <!--imagens-->
+                <div class="col-md-12 mb-3">
+                    <label for="img2" class="form-label">FOTO DA ETIQUETA DA FILA DO BASTIDOR:</label>
+                    <input type="file" id="img2" name="img2" accept="image/*" class="form-control"/>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label for="img3" class="form-label">FOTO DA BANDEJA/SUB INSTALADA E IDENTIFICADA NO BASTIDOR:</label>
+                    <input type="file" id="img3" name="img3" accept="image/*" class="form-control"/>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label for="img4" class="form-label">FOTO DAS FIBRAS FUSIONADAS E ACOMODADAS E IDENTIFICADAS NA BANDEJA:</label>
+                    <input type="file" id="img4" name="img4" accept="image/*" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="quantFibra" class="form-label">QUANTIDADE DE FIBRAS PRIMÁRIAS/ENTRONCAMENTO UTILIZADAS NA BANDEJA DO BASTIDOR:</label>
+                    <input type="text" id="quantFibra" name="quantFibra" value="@Model?.quantFibra" class="form-control" />
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label for="img5" class="form-label">FOTO DA FIBRA SEQUÊNCIA Nº 01 COM TELA DO OTDR E CURVA DE DESEMPENHO:</label>
+                    <input type="file" id="img5" name="img5" accept="image/*" class="form-control"/>
+                </div>
+                <!-- Página 3 -->
+                <div class="col-md-12 mb-3">
+                    <label for="img6" class="form-label">FOTO DA FIBRA SEQUÊNCIA Nº 02 COM TELA DO OTDR E CURVA DE DESEMPENHO:</label>
+                    <input type="file" id="img6" name="img6" accept="image/*" class="form-control" />
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label for="localLimpo01" class="form-label">LOCAL ESTAVA LIMPO:</label>
+                    <input type="text" id="localLimpo01" name="localLimpo01" value="@Model?.localLimpo01" class="form-control" />
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label for="img7" class="form-label">FOTO GERAL DO AMBIENTE E ESTRUTURA ORGANIZADA E LIMPA APÓS CONCLUSÃO DA ATIVIDADE:</label>
+                    <input type="file" id="img7" name="img7" accept="image/*" class="form-control" />
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label for="enlaceFribra" class="form-label">ENLACE TOTAL DAS FIBRAS (metros)</label>
+                    <input type="text" id="enlaceFribra" name="enlaceFribra" value="@Model?.enlaceFribra" class="form-control"/>
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="img8" class="form-label">FOTO DO NÍVEL DO SINAL DO GERADOR DE POTÊNCIA:</label>
+                    <input type="file" id="img8" name="img8" accept="image/*" class="form-control"/>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label for="comentario01" class="form-label">ENLACE TOTAL DAS FIBRAS (metros)</label>
+                    <input type="text" id="comentario01" name="comentario01" value="@Model?.comentario01" class="form-control" />
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label for="trabalhoRealizado" class="form-label">TRABALHOS REALIZADOS EM:</label>
+                    <input type="text" id="trabalhoRealizado" name="trabalhoRealizado" value="@Model?.trabalhoRealizado" class="form-control" />
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label for="obsTrabaReali" class="form-label">OBSERCAÇÃO DO TRABALHO REALIZADO:</label>
+                    <input type="text" id="obsTrabaReali" name="obsTrabaReali" value="@Model?.obsTrabaReali" class="form-control" />
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label for="quantCssAberta" class="form-label">QUANTIDADE DE CS'S QUE FORAM ABERTAS:</label>
+                    <input type="text" id="quantCssAberta" name="quantCssAberta" value="@Model?.quantCssAberta" class="form-control" />
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label for="obsCssAberta" class="form-label">OBSERVAÇÃO QUANTIDADE DE CS'S:</label>
+                    <input type="text" id="obsCssAberta" name="obsCssAberta" value="@Model?.obsCssAberta" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="capaCaboNestaRede" class="form-label">CAPACIDADE DO CABO NESTA REDE:</label>
+                    <input type="text" id="capaCaboNestaRede" name="capaCaboNestaRede" value="@Model?.capaCaboNestaRede" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="obsCaboNestaRede" class="form-label">OBSERVAÇÃO CAPACIDADE DO CABO NESTA REDE:</label>
+                    <input type="text" id="obsCaboNestaRede" name="obsCaboNestaRede" value="@Model?.obsCaboNestaRede" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="caboUtili" class="form-label">OBSERVAÇÃO CAPACIDADE DO CABO NESTA REDE:</label>
+                    <input type="text" id="caboUtili" name="caboUtili" value="@Model?.caboUtili" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="obsCaboUtili" class="form-label">OBSERVAÇÃO CAPACIDADE DO CABO NESTA REDE:</label>
+                    <input type="text" id="obsCaboUtili" name="obsCaboUtili" value="@Model?.obsCaboUtili" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="quantCaboExistenteReaberEmendas" class="form-label">NO CABO EXISTENTE, QUAL FOI A QUANTIDADE DE REABERTURAS/EMENDAS TRABALHADAS?:</label>
+                    <input type="text" id="quantCaboExistenteReaberEmendas" name="quantCaboExistenteReaberEmendas" value="@Model?.quantCaboExistenteReaberEmendas" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="img9" class="form-label">FOTO DO NÍVEL DO SINAL DO GERADOR DE POTÊNCIA:</label>
+                    <input type="file" id="img9" name="img9" accept="image/*" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="img11" class="form-label">FOTO DA EMENDA FIXADA:</label>
+                    <input type="file" id="img11" name="img11" accept="image/*" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="trechoSubFinal" class="form-label">TRECHO SUBTERRÂNEO É O FINAL DA REDE/PROJETO EXTERNO?:</label>
+                    <input type="text" id="trechoSubFinal" name="trechoSubFinal" value="@Model?.trechoSubFinal" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="obsTrechoSubFinal" class="form-label">TRECHO SUBTERRÂNEO É O FINAL DA REDE/PROJETO EXTERNO?:</label>
+                    <input type="text" id="obsTrechoSubFinal" name="obsTrechoSubFinal" value="@Model?.obsTrechoSubFinal" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="metragemCabo" class="form-label">TRECHO SUBTERRÂNEO É O FINAL DA REDE/PROJETO EXTERNO?</label>
+                    <input type="text" id="metragemCabo" name="metragemCabo" value="@Model?.metragemCabo" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="obsMetragemCabo" class="form-label">METRAGEM DE CABO NA SOBRA, "ROLO":</label>
+                    <input type="text" id="obsMetragemCabo" name="obsMetragemCabo" value="@Model?.obsMetragemCabo" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="img12" class="form-label">FOTO DA SOBRA, 'ROLO' DE CABO CHEGADA ENTRADA CLIENTE:</label>
+                    <input type="file" id="img12" name="img12" accept="image/*" class="form-control" />
+                </div>
+                
+                <div class="col-md-12 mb-3">
+                    <label for="limpo2" class="form-label">LOCAL LIMPO?</label>
+                    <input type="text" id="limpo2" name="limpo2" value="@Model?.limpo2" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="img13" class="form-label">FOTO GERAL DO AMBIENTE E ESTRUTURA ORGANIZADA E LIMPA APÓS CONCLUSÃO DA ATIVIDADE:</label>
+                    <input type="file" id="img13" name="img13" accept="image/*" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="img14" class="form-label">FOTO GERAL COM FACHADA CLIENTE:</label>
+                    <input type="file" id="img14" name="img14" accept="image/*" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="img15" class="form-label">FOTO DO NÍVEL DO SINAL NO CABO TERMINAL:</label>
+                    <input type="file" id="img15" name="img15" accept="image/*" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="perdaNivelSinal" class="form-label">PERDA DO NÍVEL DE SINAL</label>
+                    <input type="text" id="perdaNivelSinal" name="perdaNivelSinal" value="@Model?.perdaNivelSinal" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="obsPerdaNivelSinal" class="form-label">obs: PERDA DO NÍVEL DE SINAL</label>
+                    <input type="text" id="obsPerdaNivelSinal" name="obsPerdaNivelSinal" value="@Model?.obsPerdaNivelSinal" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="come01" class="form-label">COMENTÁRIOS</label>
+                    <input type="text" id="come01" name="come01" value="@Model?.come01" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="lancamentoCaboCliente" class="form-label">HOUVE LANÇAMENTO INTERNO DE CABO NO CLIENTE</label>
+                    <input type="text" id="lancamentoCaboCliente" name="lancamentoCaboCliente" value="@Model?.lancamentoCaboCliente" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="obsLancamentoCaboCliente" class="form-label">obs: HOUVE LANÇAMENTO INTERNO DE CABO NO CLIENTE</label>
+                    <input type="text" id="obsLancamentoCaboCliente" name="obsLancamentoCaboCliente" value="@Model?.obsLancamentoCaboCliente" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="posicaoFribra" class="form-label">obs: POSIÇÃO DAS FIBRAS NO CLIENTE</label>
+                    <input type="text" id="posicaoFribra" name="posicaoFribra" value="@Model?.posicaoFribra" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="obsPosicaoFibra" class="form-label">POSIÇÃO DAS FIBRAS NO CLIENTE</label>
+                    <input type="text" id="obsPosicaoFibra" name="obsPosicaoFibra" value="@Model?.obsPosicaoFibra" class="form-control" />
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="comen03" class="form-label">COMENTÁRIOS</label>
+                    <input type="text" id="comen03" name="comen03" value="@Model?.comen03" class="form-control" />
+                </div>
+            </div>
         </div>
 
-
-        <!-- Certificado -->
-        <div>
-            <label for="certi">Certificado:</label>
-            <input type="text" id="certi" name="certi" value="@Model?.certi" />
-        </div>
-        <div>
-            <label for="valorCert">Número Certificado:</label>
-            <input type="text" id="valorCert" name="valorCert" value="@Model?.valorCert" />
-        </div>
-
-        <!-- Valor Cent -->
-        <div>
-            <label for="valCent">Valor Cent:</label>
-            <input type="text" id="valCent" name="valCent" value="@Model?.valCent" />
-        </div>
-
-        <!-- Observação Certificado -->
-        <div>
-            <label for="obsCe">Observação Certificado:</label>
-            <input type="text" id="obsCe" name="obsCe" value="@Model?.obsCe" />
-        </div>
-
-        <!-- Valor Cabo -->
-        <div>
-            <label for="valCabo">Valor Cabo:</label>
-            <input type="text" id="valCabo" name="valCabo" value="@Model?.valCabo" />
-        </div>
-
-        <!-- Observação Andar do Cen -->
-        <div>
-            <label for="obsAndarDoCen">Observação Andar do Cen:</label>
-            <input type="text" id="obsAndarDoCen" name="obsAndarDoCen" value="@Model?.obsAndarDoCen" />
-        </div>
-
-        <!-- Valor Andar do Cen -->
-        <div>
-            <label for="valAndarDoCen">Valor Andar do Cen:</label>
-            <input type="text" id="valAndarDoCen" name="valAndarDoCen" value="@Model?.valAndarDoCen" />
-        </div>
-
-        <!-- Observação Valden Cabo -->
-        <div>
-            <label for="obsValdenCabo">Observação Valden Cabo:</label>
-            <input type="text" id="obsValdenCabo" name="obsValdenCabo" value="@Model?.obsValdenCabo" />
-        </div>
-
-        <!-- Imagem 1 -->
-        <div>
-            <label for="img1">Imagem:</label>
-            <input type="file" id="img1" name="img1" accept="image/*" />
-        </div>
-
-        <!-- Observação da Imagem -->
-        <div>
-            <label for="obsImg1">Observação da Imagem:</label>
-            <input type="text" id="obsImg1" name="obsImg1" value="@Model?.obsImg1" />
-        </div>
-
-        <!-- Página 2 -->
-        <!--imagens-->
-        <div>
-            <label for="img2">FOTO DA ETIQUETA DA FILA DO BASTIDOR:</label>
-            <input type="file" id="img2" name="img2" accept="image/*" />
-        </div>
-        <div>
-            <label for="img3">FOTO DA BANDEJA/SUB INSTALADA E IDENTIFICADA NO BASTIDOR:</label>
-            <input type="file" id="img3" name="img3" accept="image/*" />
-        </div>
-        <div>
-            <label for="img4">FOTO DAS FIBRAS FUSIONADAS E ACOMODADAS E IDENTIFICADAS NA BANDEJA:</label>
-            <input type="file" id="img4" name="img4" accept="image/*" />
-        </div>
-        
-        <div>
-            <label for="quantFibra">QUANTIDADE DE FIBRAS PRIMÁRIAS/ENTRONCAMENTO UTILIZADAS NA BANDEJA DO BASTIDOR:</label>
-            <input type="text" id="quantFibra" name="quantFibra" value="@Model?.quantFibra" />
-        </div>
-        <div>
-            <label for="img5">FOTO DA FIBRA SEQUÊNCIA Nº 01 COM TELA DO OTDR E CURVA DE DESEMPENHO:</label>
-            <input type="file" id="img5" name="img5" accept="image/*" />
-        </div>
-        <!-- Página 3 -->
-        <div>
-            <label for="img6">FOTO DA FIBRA SEQUÊNCIA Nº 02 COM TELA DO OTDR E CURVA DE DESEMPENHO:</label>
-            <input type="file" id="img6" name="img6" accept="image/*" />
-        </div>
-        <div>
-            <label for="localLimpo01">LOCAL ESTAVA LIMPO:</label>
-            <input type="text" id="localLimpo01" name="localLimpo01" value="@Model?.localLimpo01" />
-        </div>
-        <div>
-            <label for="img7">FOTO GERAL DO AMBIENTE E ESTRUTURA ORGANIZADA E LIMPA APÓS CONCLUSÃO DA ATIVIDADE:</label>
-            <input type="file" id="img7" name="img7" accept="image/*" />
-        </div>
-        <div>
-            <label for="enlaceFribra">ENLACE TOTAL DAS FIBRAS (metros)</label>
-            <input type="text" id="enlaceFribra" name="enlaceFribra" value="@Model?.enlaceFribra" />
-        </div>
-
-        <div>
-        <label for="img8">FOTO DO NÍVEL DO SINAL DO GERADOR DE POTÊNCIA:</label>
-        <input type="file" id="img8" name="img8" accept="image/*" />
-        </div>
-        <div>
-            <label for="comentario01">ENLACE TOTAL DAS FIBRAS (metros)</label>
-            <input type="text" id="comentario01" name="comentario01" value="@Model?.comentario01" />
-        </div>
-        <div>
-            <label for="trabalhoRealizado">TRABALHOS REALIZADOS EM:</label>
-            <input type="text" id="trabalhoRealizado" name="trabalhoRealizado" value="@Model?.trabalhoRealizado" />
-        </div>
-        <div>
-            <label for="obsTrabaReali">OBSERCAÇÃO DO TRABALHO REALIZADO:</label>
-            <input type="text" id="obsTrabaReali" name="obsTrabaReali" value="@Model?.obsTrabaReali" />
-        </div>
-        <div>
-            <label for="quantCssAberta">QUANTIDADE DE CS'S QUE FORAM ABERTAS:</label>
-            <input type="text" id="quantCssAberta" name="quantCssAberta" value="@Model?.quantCssAberta" />
-        </div>
-        <div>
-            <label for="obsCssAberta">OBSERAÇÃO QUANTIDADE DE CS'S:</label>
-            <input type="text" id="obsCssAberta" name="obsCssAberta" value="@Model?.obsCssAberta" />
-        </div>
-        <div>
-            <label for="capaCaboNestaRede">CAPACIDADE DO CABO NESTA REDE:</label>
-            <input type="text" id="capaCaboNestaRede" name="capaCaboNestaRede" value="@Model?.capaCaboNestaRede" />
-        </div>
-        <div>
-            <label for="obsCaboNestaRede">OBSERVAÇÃO CAPACIDADE DO CABO NESTA REDE:</label>
-            <input type="text" id="obsCaboNestaRede" name="obsCaboNestaRede" value="@Model?.obsCaboNestaRede" />
-        </div>
-         <div>
-            <label for="caboUtili">OBSERVAÇÃO CAPACIDADE DO CABO NESTA REDE:</label>
-            <input type="text" id="caboUtili" name="caboUtili" value="@Model?.caboUtili" />
-        </div>
-        <div>
-            <label for="obsCaboUtili">OBSERVAÇÃO CAPACIDADE DO CABO NESTA REDE:</label>
-            <input type="text" id="obsCaboUtili" name="obsCaboUtili" value="@Model?.obsCaboUtili" />
-        </div>
-        
-
-        <div>
-            <label for="quantCaboExistenteReaberEmendas">NO CABO EXISTENTE, QUAL FOI A QUANTIDADE DE REABERTURAS/EMENDAS TRABALHADAS?E:</label>
-            <input type="text" id="quantCaboExistenteReaberEmendas" name="quantCaboExistenteReaberEmendas" value="@Model?.quantCaboExistenteReaberEmendas" />
-        </div>
-        <div>
-            <label for="img9">FOTO DO NÍVEL DO SINAL DO GERADOR DE POTÊNCIA:</label>
-            <input type="file" id="img9" name="img9" accept="image/*" />
-        </div> 
-
-        <!-- Página 4 -->
-        <div>
-            <label for="img11">FOTO DA EMENDA FIXADA: </label>
-            <input type="file" id="img11" name="img11" accept="image/*" />
-        </div>
-        <div>
-            <label for="trechoSubFinal">TRECHO SUBTERRÂNEO É O FINAL DA REDE/PROJETO EXTERNO?:</label>
-            <input type="text" id="trechoSubFinal" name="trechoSubFinal" value="@Model?.trechoSubFinal" />
-        </div>
-        <div>
-            <label for="obsTrechoSubFinal">TRECHO SUBTERRÂNEO É O FINAL DA REDE/PROJETO EXTERNO?:</label>
-            <input type="text" id="obsTrechoSubFinal" name="obsTrechoSubFinal" value="@Model?.obsTrechoSubFinal" />
-        </div>
-
-        <div>
-            <label for="metragemCabo">TRECHO SUBTERRÂNEO É O FINAL DA REDE/PROJETO EXTERNO?</label>
-            <input type="text" id="metragemCabo" name="metragemCabo" value="@Model?.metragemCabo" />
-        </div>
-
-        <div>
-            <label for="obsMetragemCabo">METRAGEM DE CABO NA SOBRA, "ROLO":</label>
-            <input type="text" id="obsMetragemCabo" name="obsMetragemCabo" value="@Model?.obsMetragemCabo" />
-        </div>
-        <div>
-            <label for="img12">FOTO DA SOBRA, 'ROLO' DE CABO CHEGADA ENTRADA CLIENTE:</label>
-            <input type="file" id="img12" name="img12" accept="image/*" />
-        </div>
-        <div>
-            <label for="limpo2">LOCAL LIMPO?</label>
-            <input type="text" id="limpo2" name="limpo2" value="@Model?.limpo2" />
-        </div>
-        <div>
-            <label for="img13">FOTO GERAL DO AMBIENTE E ESTRUTURA ORGANIZADA E LIMPA APÓS CONCLUSÃO DA ATIVIDADE:</label>
-            <input type="file" id="img13" name="img13" accept="image/*" />
-        </div>
-        
-        <div>
-            <label for="img14">FOTO GERAL COM FACHADA CLIENTE:</label>
-            <input type="file" id="img14" name="img14" accept="image/*" />
-        </div>
-        <!-- Página 5 -->
-        <div>
-            <label for="img15">FOTO GERAL COM FACHADA CLIENTE:</label>
-            <input type="file" id="img15" name="img15" accept="image/*" />
-        </div>
-        <div>
-            <label for="perdaNivelSinal">LOCAL LIMPO?</label>
-            <input type="text" id="perdaNivelSinal" name="perdaNivelSinal" value="@Model?.perdaNivelSinal" />
-        </div>
-        <div>
-            <label for="obsPerdaNivelSinal">LOCAL LIMPO?</label>
-            <input type="text" id="obsPerdaNivelSinal" name="obsPerdaNivelSinal" value="@Model?.obsPerdaNivelSinal" />
-        </div>
-        <div>
-            <label for="come01">LOCAL LIMPO?</label>
-            <input type="text" id="come01" name="come01" value="@Model?.come01" />
-        </div>
-        <div>
-            <label for="lancamentoCaboCliente">LOCAL LIMPO?</label>
-            <input type="text" id="lancamentoCaboCliente" name="lancamentoCaboCliente" value="@Model?.lancamentoCaboCliente" />
-        </div>
-        <div>
-            <label for="obsLancamentoCaboCliente">LOCAL LIMPO?</label>
-            <input type="text" id="obsLancamentoCaboCliente" name="obsLancamentoCaboCliente" value="@Model?.obsLancamentoCaboCliente" />
-        </div>
-        <div>
-            <label for="posicaoFribra">LOCAL LIMPO?</label>
-            <input type="text" id="posicaoFribra" name="posicaoFribra" value="@Model?.posicaoFribra" />
-        </div>
-        <div>
-            <label for="obsPosicaoFibra">LOCAL LIMPO?</label>
-            <input type="text" id="obsPosicaoFibra" name="obsPosicaoFibra" value="@Model?.obsPosicaoFibra" />
-        </div>
-        <div>
-            <label for="comen03">LOCAL LIMPO?</label>
-            <input type="text" id="comen03" name="comen03" value="@Model?.comen03" />
-        </div>
+        <button type="submit" class="btn btn-lg w-100" style="background-color: #67009a; color: white;">Gerar Relatório</button>
 
 
-
-
-
-
-        <button type="submit">Gerar Relatório</button>
     </form>
 
     @if (ViewBag != null)

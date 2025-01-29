@@ -5,12 +5,28 @@
       "PackagePath": "staticwebassets\\teste03.bv5ftp8r49.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
       "Id": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
     },
     {
       "Id": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\js\\site.js",
@@ -243,6 +259,14 @@
     {
       "Id": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\uploads\\Relatório Monitoramento (1).jpg",
+      "PackagePath": "staticwebassets\\uploads\\Relatório Monitoramento (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\uploads\\Vivo.png",
+      "PackagePath": "staticwebassets\\uploads\\Vivo.png"
     },
     {
       "Id": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\wwwroot\\uploads\\logo_capital.png",

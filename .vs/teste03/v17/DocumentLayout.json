@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DA193F4B-B1CF-41B1-B969-E03E7A6EC55F}|teste03\\teste03.csproj|c:\\users\\0102062077\\documents\\arquivoeditar\\teste03\\relatoriovivo\\teste03\\teste03.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DA193F4B-B1CF-41B1-B969-E03E7A6EC55F}|teste03\\teste03.csproj|solutionrelative:teste03\\teste03.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA193F4B-B1CF-41B1-B969-E03E7A6EC55F}|teste03\\teste03.csproj|c:\\users\\0102062077\\documents\\arquivoeditar\\teste03\\relatoriovivo\\teste03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA193F4B-B1CF-41B1-B969-E03E7A6EC55F}|teste03\\teste03.csproj|solutionrelative:teste03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DA193F4B-B1CF-41B1-B969-E03E7A6EC55F}|teste03\\teste03.csproj|c:\\users\\0102062077\\documents\\arquivoeditar\\teste03\\relatoriovivo\\teste03\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DA193F4B-B1CF-41B1-B969-E03E7A6EC55F}|teste03\\teste03.csproj|solutionrelative:teste03\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,8 +23,8 @@
       "RelativeMoniker": "D:0:0:{DA193F4B-B1CF-41B1-B969-E03E7A6EC55F}|teste03\\teste03.csproj|solutionrelative:teste03\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA193F4B-B1CF-41B1-B969-E03E7A6EC55F}|teste03\\teste03.csproj|c:\\users\\0102062077\\documents\\arquivoeditar\\teste03\\relatoriovivo\\teste03\\teste03.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DA193F4B-B1CF-41B1-B969-E03E7A6EC55F}|teste03\\teste03.csproj|solutionrelative:teste03\\teste03.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{DA193F4B-B1CF-41B1-B969-E03E7A6EC55F}|teste03\\teste03.csproj|c:\\users\\0102062077\\documents\\arquivoeditar\\teste03\\relatoriovivo\\teste03\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA193F4B-B1CF-41B1-B969-E03E7A6EC55F}|teste03\\teste03.csproj|solutionrelative:teste03\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +34,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "teste03\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "teste03\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAACYBAAAAAAAAAAAAACkBAABqAAAAAAAAAA==",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAcwLoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-28T11:39:50.872Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\Program.cs",
+              "RelativeDocumentMoniker": "teste03\\Program.cs",
+              "ToolTip": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\Program.cs",
+              "RelativeToolTip": "teste03\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T14:45:07.532Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -48,39 +70,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "teste03\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "teste03\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAB4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T11:26:22.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "teste03\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\Controllers\\HomeController.cs",
               "RelativeToolTip": "teste03\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAKYAAAAAAAAAAAAAALcAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T11:32:32.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Cabecalho.cs",
               "DocumentMoniker": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\Models\\Cabecalho.cs",
               "RelativeDocumentMoniker": "teste03\\Models\\Cabecalho.cs",
               "ToolTip": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\Models\\Cabecalho.cs",
               "RelativeToolTip": "teste03\\Models\\Cabecalho.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEsAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T14:00:49.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "teste03.csproj",
               "DocumentMoniker": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\teste03.csproj",
               "RelativeDocumentMoniker": "teste03\\teste03.csproj",
               "ToolTip": "C:\\Users\\0102062077\\Documents\\ArquivoEditar\\teste03\\RelatorioVivo\\teste03\\teste03.csproj",
               "RelativeToolTip": "teste03\\teste03.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-01-27T20:30:43.113Z",
               "EditorCaption": ""

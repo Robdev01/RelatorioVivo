@@ -38,7 +38,6 @@ namespace teste03.Controllers
                 uf = "",
                 areaAT = "",
                 status = "",
-                certi = "",
                 valorCert = "",
                 valCent = "",
                 obsCe = "",
@@ -135,7 +134,7 @@ namespace teste03.Controllers
                 report.SetParameterValue("areaAT", model.areaAT);
                 report.SetParameterValue("status", model.status);
                 
-                report.SetParameterValue("certi", model.certi);
+               
                 report.SetParameterValue("valorCert", model.valorCert);
 
                 

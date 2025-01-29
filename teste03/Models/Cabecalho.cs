@@ -22,7 +22,6 @@ namespace teste03.Models
         public string uf {  get; set; }
         public string areaAT { get; set; }
         public string status {  get; set; }
-        public string certi { get; set; }
         public string valorCert { get; set; }
         public string valCent { get; set; }
         public string obsCe {  get; set; }
@@ -73,16 +72,6 @@ namespace teste03.Models
         public string obsLancamentoCaboCliente { get; set; }
         public string posicaoFribra { get; set; }
         public string obsPosicaoFibra { get; set; }
-        public string comen03 { get; set; }
-       
-
-
-
-
-
-
-
-
-
+        public string comen03 { get; set; } 
     }
 }
